@@ -38,6 +38,6 @@ const cvQAFlow = ai.defineFlow(
   },
   async input => {
     const {output} = await cvQAPrompt(input);
-    return output!;
+    return output || "I'm sorry, I don't have an answer for that.";
   }
 );
