@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import Link from "next/link";
+// import Link from "next/link";
 import { Button } from "./ui/button";
 
 const socialLinks = [
@@ -27,7 +27,7 @@ export function SiteFooter() {
     <footer className="border-t py-6 md:px-8 md:py-8">
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <p className="text-sm text-muted-foreground text-center md:text-left">
-           © {currentYear} Kingsley's AI Portfolio. All rights reserved.
+           © {currentYear} Kingsley&apos;s AI Portfolio. All rights reserved.
         </p>
         
         <div className="flex items-center gap-2">

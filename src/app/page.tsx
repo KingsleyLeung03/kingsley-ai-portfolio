@@ -12,7 +12,7 @@ export default function Home() {
             Meet Your AI-Powered Portfolio Assistant
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
-            I've built an interactive AI chatbot to help you learn more about my skills, experience, and projects. Ask it anything, or explore my site to see my work.
+            I&apos;ve built an interactive AI chatbot to help you learn more about my skills, experience, and projects. Ask it anything, or explore my site to see my work.
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
             <Button asChild size="lg">

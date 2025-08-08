@@ -20,7 +20,7 @@ async function getGalleryImages() {
 }
 
 export default async function GalleryPage() {
-    let imageFiles = await getGalleryImages();
+    const imageFiles = await getGalleryImages();
     let isPlaceholder = false;
 
     if (imageFiles.length === 0) {

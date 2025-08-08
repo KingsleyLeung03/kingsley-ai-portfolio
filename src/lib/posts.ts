@@ -10,7 +10,7 @@ export function getSortedPostsData() {
   let fileNames = []
   try {
     fileNames = fs.readdirSync(postsDirectory)
-  } catch (err) {
+  } catch {
     // If the directory doesn't exist, return empty array
     return []
   }
@@ -60,7 +60,7 @@ export function getAllPostSlugs() {
   let fileNames = []
   try {
     fileNames = fs.readdirSync(postsDirectory)
-  } catch (err) {
+  } catch {
     return []
   }
 

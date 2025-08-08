@@ -11,21 +11,21 @@ type PageProps = {
 }
 
 export async function generateMetadata({ params }: PageProps) {
-    try {
-        const postData = await getPostData(params.slug);
-        return {
-            title: `${postData.title} | Kingsley's AI Portfolio`,
-        };
-    } catch (error) {
-        return {
-            title: "Post Not Found | Kingsley's AI Portfolio",
-        }
+  try {
+    const postData = await getPostData(params.slug);
+    return {
+      title: `${postData.title} | Kingsley's AI Portfolio`,
+    };
+  } catch {
+    return {
+      title: "Post Not Found | Kingsley's AI Portfolio",
     }
+  }
 }
 
 export async function generateStaticParams() {
-    const paths = getAllPostSlugs();
-    return paths.map(path => ({ slug: path.slug }));
+  const paths = getAllPostSlugs();
+  return paths.map((path: { slug: string }) => ({ slug: path.slug }));
 }
 
 
@@ -55,7 +55,7 @@ export default async function Post({ params }: PageProps) {
         />
       </article>
     );
-  } catch (error) {
+  } catch {
     notFound();
   }
 }
