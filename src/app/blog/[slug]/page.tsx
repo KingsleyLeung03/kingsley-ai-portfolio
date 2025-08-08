@@ -4,11 +4,23 @@ import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-    const postData = await getPostData(params.slug);
-    return {
-        title: `${postData.title} | Kingsley's AI Portfolio`,
-    };
+type PageProps = {
+    params: {
+        slug: string;
+    }
+}
+
+export async function generateMetadata({ params }: PageProps) {
+    try {
+        const postData = await getPostData(params.slug);
+        return {
+            title: `${postData.title} | Kingsley's AI Portfolio`,
+        };
+    } catch (error) {
+        return {
+            title: "Post Not Found | Kingsley's AI Portfolio",
+        }
+    }
 }
 
 export async function generateStaticParams() {
@@ -17,7 +29,7 @@ export async function generateStaticParams() {
 }
 
 
-export default async function Post({ params }: { params: { slug: string } }) {
+export default async function Post({ params }: PageProps) {
   try {
     const postData = await getPostData(params.slug);
 
