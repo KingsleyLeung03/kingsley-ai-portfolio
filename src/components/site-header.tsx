@@ -2,11 +2,11 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { BotMessageSquare, Menu, Home, Image as ImageIcon, BookOpen } from "lucide-react"
+import { BotMessageSquare, Menu, Home, Image as ImageIcon, BookOpen, User } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { useState } from "react"
 
 const navItems = [
@@ -14,6 +14,11 @@ const navItems = [
     href: "/",
     label: "Home",
     icon: Home,
+  },
+  {
+    href: "/about",
+    label: "About",
+    icon: User,
   },
   {
     href: "/blog",
@@ -33,7 +38,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
+      <div className="container flex h-14 max-w-screen-2xl items-center px-4">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <BotMessageSquare className="h-6 w-6 text-primary" />
@@ -70,6 +75,9 @@ export function SiteHeader() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <SheetHeader>
+                <SheetTitle className="text-left">Navigation</SheetTitle>
+              </SheetHeader>
               <nav className="flex flex-col gap-4 mt-8">
                 {navItems.map((item) => (
                   <Link
