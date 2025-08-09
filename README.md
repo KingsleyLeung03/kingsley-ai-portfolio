@@ -1,5 +1,7 @@
 # Kingsley's AI-Powered Personal Portfolio
 
+[![View Live](https://img.shields.io/badge/View%20Live-kingsley--leung.vercel.app-blue?style=for-the-badge&logo=vercel)](https://kingsley-leung.vercel.app)
+
 This is the source code for my personal portfolio website. It's a modern, responsive single-page application built with Next.js and TypeScript, designed to showcase my skills, experience, and projects in an interactive way.
 
 A key feature of this site is the AI-powered chatbot that can answer questions about my professional background based on the content of my resume and other provided documents.
@@ -34,11 +36,11 @@ To get a local copy up and running, follow these simple steps.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/your_username/your_repository.git
+    git clone https://github.com/KingsleyLeung03/kingsley-ai-portfolio.git
     ```
 2.  Navigate to the project directory
     ```sh
-    cd your_repository
+    cd kingsley-ai-portfolio
     ```
 3.  Install NPM packages
     ```sh
@@ -52,7 +54,7 @@ To get a local copy up and running, follow these simple steps.
     ```sh
     bun dev
     ```
-    The application will be available at `http://localhost:9002`.
+    The application will be available at `http://localhost:3000`.
 
 ## Continuous Integration
 
@@ -75,13 +77,13 @@ A `Dockerfile` is included to containerise the application for easy deployment.
 To build the image, you need to pass your Gemini API key as a build secret. First, export your key as an environment variable:
 ```sh
 export GEMINI_API_KEY="your_api_key_here"
-docker build --secret id=gemini_api_key,env=GEMINI_API_KEY -t kingsley-portfolio .
+docker build --secret id=gemini_api_key,env=GEMINI_API_KEY -t kingsley-ai-portfolio .
 ```
 
 ### Run the Docker container
 
 ```sh
-docker run -p 3000:3000 kingsley-portfolio
+docker run -p 3000:3000 kingsley-ai-portfolio
 ```
 The application will be available at `http://localhost:3000`.
 
