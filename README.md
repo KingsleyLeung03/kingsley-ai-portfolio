@@ -72,9 +72,10 @@ These checks are run automatically on every `push` and `pull_request` to the `ma
 A `Dockerfile` is included to containerise the application for easy deployment.
 
 ### Build the Docker image
-
+To build the image, you need to pass your Gemini API key as a build secret. First, export your key as an environment variable:
 ```sh
-docker build -t kingsley-portfolio .
+export GEMINI_API_KEY="your_api_key_here"
+docker build --secret id=gemini_api_key,env=GEMINI_API_KEY -t kingsley-portfolio .
 ```
 
 ### Run the Docker container
@@ -94,4 +95,3 @@ The application will be available at `http://localhost:3000`.
 - `gallery/`: Image files for the photo gallery.
 - `.github/workflows/`: Contains the CI workflow files.
 - `Dockerfile`: Defines the container for the application.
-
