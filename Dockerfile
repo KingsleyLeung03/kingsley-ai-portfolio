@@ -10,7 +10,7 @@ WORKDIR /app
 # Make sure bun.lockb is present in your project root by running `bun install`
 # and commit it to your repository.
 FROM base AS deps
-COPY package.json bun.lockb ./
+COPY package.json bun.lock ./
 RUN bun install --frozen-lockfile
 
 # ---- Build ----
