@@ -1,6 +1,5 @@
 'use client'
 
-import { cvQA } from '@/ai/flows/cv-qa-chatbot'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -50,8 +49,14 @@ export function Chatbot() {
     setIsLoading(true)
 
     try {
-      const response = await cvQA(input)
-      const assistantMessage: Message = { role: 'assistant', content: response }
+      const res = await fetch('/api/chatbot', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: input }),
+      });
+      if (!res.ok) throw new Error('API error');
+      const data = await res.json();
+      const assistantMessage: Message = { role: 'assistant', content: data.answer }
       setMessages((prev) => [...prev, assistantMessage])
     } catch (error) {
       console.error('Chatbot error:', error)
