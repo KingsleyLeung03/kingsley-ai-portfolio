@@ -16,6 +16,8 @@ RUN bun install --frozen-lockfile
 FROM base as builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+ARG GEMINI_API_KEY
+ENV GEMINI_API_KEY=$GEMINI_API_KEY
 RUN bun run build
 
 # ---- Runner ----
