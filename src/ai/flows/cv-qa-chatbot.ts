@@ -17,7 +17,7 @@ export async function cvQA(input: CvQAInput): Promise<CvQAOutput> {
 
   try {
     const response = await openai.chat.completions.create({
-        model: "gemini-1.5-flash-latest",
+        model: "gemini-2.0-flash",
         messages: [
             { 
               role: "system", 
