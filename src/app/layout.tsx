@@ -8,9 +8,6 @@ import { SiteFooter } from '@/components/site-footer';
 export const metadata: Metadata = {
   title: "Kingsley's AI Portfolio",
   description: "A personal portfolio for Kingsley, powered by AI.",
-  icons: {
-    icon: "/favicon.svg",
-  },
 };
 
 export default function RootLayout({
