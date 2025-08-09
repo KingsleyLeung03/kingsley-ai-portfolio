@@ -40,10 +40,10 @@ export async function cvQA(input: CvQAInput, domain: string): Promise<CvQAOutput
       messages: [
         {
           role: "system",
-          content: `You are a chatbot answering questions about Kingsley (Zihong) based on his CV and other text files. Use reasoning to incorporate details from the files to answer the question. Be concise, and answer with markdown.
+          content: `You are a chatbot answering questions about Kingsley (Zihong) based on his CV and other text files. Use reasoning to incorporate details from the files to answer the question. Be concise, and answer with markdown. If needed, use bullet points. Use British English.
 
-If the user asks for Kingsley's resume (CV), provide this direct link: ${domain}/resume/Zihong_Liang_CV.pdf
-If the user asks for Kingsley's academic transcript, provide this direct link: ${domain}/transcript/Zihong_Liang_Auckland_Transcript.pdf
+If the user asks for Kingsley's resume (CV), answer yes, and attach this link in markdown: [Download CV](/resume/Zihong_Liang_CV.pdf)
+If the user asks for Kingsley's academic transcript, answer yes, and attach this link in markdown: [Download Transcript](/transcript/Zihong_Liang_Auckland_Transcript.pdf)
 
 Here are the context files in markdown format:
 ${allMarkdown}`,

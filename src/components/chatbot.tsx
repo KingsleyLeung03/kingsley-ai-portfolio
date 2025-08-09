@@ -8,6 +8,7 @@ import { useToast } from '@/hooks/use-toast'
 import { cn } from '@/lib/utils'
 import { Bot, Loader2, Send, User } from 'lucide-react'
 import { FormEvent, useRef, useState, useEffect } from 'react'
+import ReactMarkdown from 'react-markdown'
 
 type Message = {
   role: 'user' | 'assistant'
@@ -89,7 +90,9 @@ export function Chatbot() {
                   </Avatar>
                 )}
                 <div className={cn('max-w-[75%] rounded-lg px-3 py-2 text-sm', message.role === 'user' ? 'bg-primary text-primary-foreground' : 'bg-muted')}>
-                  <p>{message.content}</p>
+                    <div className="prose prose-sm text-foreground max-w-none [&_a]:text-primary hover:[&_a]:underline [&_p]:m-0">
+                      <ReactMarkdown>{message.content}</ReactMarkdown>
+                    </div>
                 </div>
                   {message.role === 'user' && (
                   <Avatar className="h-8 w-8 border">

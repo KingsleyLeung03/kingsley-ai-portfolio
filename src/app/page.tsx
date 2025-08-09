@@ -9,10 +9,13 @@ export default function Home() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold font-headline">
-            Meet Your AI-Powered Portfolio Assistant
+             Hi, I&apos;m Kingsley Leung, an AI-Focused Software Developer
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
-            I&apos;ve built an interactive AI chatbot to help you learn more about my skills, experience, and projects. Ask it anything, or explore my site to see my work.
+            I specialise in building intelligent applications with Python, C#, and TypeScript. I&apos;ve created this interactive AI chatbot to help you learn more about my skills and experience. Ask it anything, or explore my site to see my work.
+          </p>
+           <p className="text-sm text-muted-foreground">
+            Also known as Zihong Liang (my legal name).
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
             <Button asChild size="lg">
