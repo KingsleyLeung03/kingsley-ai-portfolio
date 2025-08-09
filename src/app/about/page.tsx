@@ -2,9 +2,9 @@ import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Briefcase, GraduationCap, Award, Heart, Mail, Phone, Linkedin, Github, MapPin, User, BookOpen } from "lucide-react";
+import { Briefcase, GraduationCap, Award, Heart, Mail, Phone, Linkedin, Github, MapPin, User, BookOpen, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 import avatarImg from "./avatar.jpg";
 import type { Metadata } from 'next';
@@ -205,6 +205,7 @@ export default function AboutPage() {
         </Avatar>
         <div>
           <h1 className="font-headline text-5xl md:text-6xl font-bold">{profile.name}</h1>
+          <p className="mt-2 text-sm text-muted-foreground">Preferred name: Kingsley Leung (He/Him)</p>
           <p className="mt-2 text-xl md:text-2xl text-primary font-semibold">{profile.title}</p>
           <p className="mt-4 text-lg text-muted-foreground">{profile.summary}</p>
         </div>
@@ -243,24 +244,26 @@ export default function AboutPage() {
         <SectionTitle icon={Briefcase}>Work Experience</SectionTitle>
         <div className="space-y-8 relative before:absolute before:inset-y-0 before:left-0 before:h-full before:w-0.5 before:bg-border before:opacity-50">
           {workExperience.map((job, index) => (
-            <Card key={index} className="pl-8">
-              <CardHeader>
-                <div>
-                    <CardTitle className="font-headline text-2xl">{job.role}</CardTitle>
-                    <p className="text-muted-foreground">{job.company} | {job.period}</p>
-                    <CardContent className="p-0 pt-4">
-                        <p>
-                          {job.description.split('\n').map((line, i) => (
-                            <React.Fragment key={i}>
-                              {line}
-                              <br />
-                            </React.Fragment>
-                          ))}
-                        </p>
-                    </CardContent>
-                </div>
-              </CardHeader>
-            </Card>
+             <Card key={index} className="pl-8">
+               <CardHeader>
+                 <div className="flex items-center gap-4">
+                   <div>
+                     <CardTitle className="font-headline text-2xl">{job.role}</CardTitle>
+                     <p className="text-muted-foreground">{job.company} | {job.period}</p>
+                     <CardContent className="p-0 pt-4">
+                       <p>
+                         {job.description.split('\n').map((line, i) => (
+                           <React.Fragment key={i}>
+                             {line}
+                             <br />
+                           </React.Fragment>
+                         ))}
+                       </p>
+                     </CardContent>
+                   </div>
+                 </div>
+               </CardHeader>
+             </Card>
           ))}
         </div>
       </Section>
@@ -272,11 +275,11 @@ export default function AboutPage() {
         <SectionTitle icon={BookOpen}>Projects</SectionTitle>
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
-            <Card key={index}>
+            <Card key={index} className="flex flex-col">
               <CardHeader>
                 <CardTitle className="font-headline text-2xl">{project.name}</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-grow">
                 <p className="mb-4">
                   {project.description.split('\n').map((line, i) => (
                     <React.Fragment key={i}>
@@ -289,6 +292,13 @@ export default function AboutPage() {
                     {project.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
                 </div>
               </CardContent>
+              <CardFooter className="justify-end">
+                <Button asChild variant="outline" size="sm">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    View Project <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </CardFooter>
             </Card>
           ))}
         </div>
