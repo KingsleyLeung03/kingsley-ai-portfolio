@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Briefcase, GraduationCap, Award, Heart, Mail, Phone, Linkedin, Github, MapPin, User, BookOpen, ExternalLink } from "lucide-react";
+import { Briefcase, GraduationCap, Award, Heart, Mail, Phone, Linkedin, Github, MapPin, User, BookOpen, ExternalLink, Download } from "lucide-react";
 import { cn } from "@/lib/utils";
 import avatarImg from "./avatar.jpg";
 import type { Metadata } from 'next';
@@ -21,6 +21,8 @@ const portfolioData = {
     avatar: avatarImg.src,
     summary:
       "A high-achieving Computer Science graduate (GPA 7.1/9) who successfully led a six-member team to develop an AI-powered web platform for wildlife conservation. Combines hands-on internship experience in core system development at Endace with a proven ability to build complete, AI-driven applications using technologies like Next.js, Copilot and Gemini. Ready to leverage a strong foundation in Python, C#, and modern JavaScript frameworks to contribute to impactful, real-world software solutions.",
+    resumeUrl: "/Kingsley_Leung_Resume.pdf",
+    transcriptUrl: "/Kingsley_Leung_Academic_Transcript.pdf",
   },
   contact: {
     email: "kingsleyleung2003@outlook.com",
@@ -53,6 +55,7 @@ const portfolioData = {
           "Enhanced system efficiency and maintainability, streamlining the configuration process for end-users and significantly reducing the potential for setup errors.",
           "Operated within an Agile framework using Jira, Confluence and Bitbucket, which maximised team productivity and ensured project milestones were met consistently."
         ].map(s => `• ${s}`).join("\n"),
+        tags: ["Python", "FastAPI", "Jinja2", "JavaScript", "Bootstrap", "Agile", "Jira", "Confluence"]
     },
     {
       role: "Professional Notetaker",
@@ -63,6 +66,7 @@ const portfolioData = {
           "Translated complex academic lectures into clear, accessible, and structured notes for students registered with Student Disability Services, directly supporting academic inclusivity.",
           "Demonstrated high attention to detail and adaptability by delivering quality notes across diverse and technical subjects, consistently meeting strict deadlines."
         ].map(s => `• ${s}`).join("\n"),
+        tags: ["Academic Support", "Communication", "Attention to Detail"]
     },
     {
       role: "Information Technology Operator",
@@ -73,6 +77,7 @@ const portfolioData = {
           "Provided critical front-line IT support for all hardware, software, and network issues, minimising downtime and ensuring smooth daily operations for the entire office.",
           "Increased operational efficiency by rapidly diagnosing and resolving technical problems with printers, routers, and desktop applications."
         ].map(s => `• ${s}`).join("\n"),
+        tags: ["IT Support", "Hardware Troubleshooting", "Network Support", "Problem Solving"]
     },
   ],
   projects: [
@@ -208,6 +213,20 @@ export default function AboutPage() {
           <p className="mt-2 text-sm text-muted-foreground">Preferred name: Kingsley Leung (He/Him)</p>
           <p className="mt-2 text-xl md:text-2xl text-primary font-semibold">{profile.title}</p>
           <p className="mt-4 text-lg text-muted-foreground">{profile.summary}</p>
+          <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <Button asChild size="lg">
+              <a href={profile.resumeUrl} download="Kingsley_Leung_Resume.pdf">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+               <a href={profile.transcriptUrl} download="Kingsley_Leung_Academic_Transcript.pdf">
+                <Download className="mr-2 h-4 w-4" />
+                Download Transcript
+              </a>
+            </Button>
+          </div>
         </div>
       </header>
 
@@ -251,14 +270,12 @@ export default function AboutPage() {
                      <CardTitle className="font-headline text-2xl">{job.role}</CardTitle>
                      <p className="text-muted-foreground">{job.company} | {job.period}</p>
                      <CardContent className="p-0 pt-4">
-                       <p>
-                         {job.description.split('\n').map((line, i) => (
-                           <React.Fragment key={i}>
-                             {line}
-                             <br />
-                           </React.Fragment>
-                         ))}
+                       <p className="mb-4 whitespace-pre-line">
+                         {job.description}
                        </p>
+                        <div className="flex flex-wrap gap-2">
+                            {job.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
+                        </div>
                      </CardContent>
                    </div>
                  </div>
@@ -280,13 +297,8 @@ export default function AboutPage() {
                 <CardTitle className="font-headline text-2xl">{project.name}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <p className="mb-4">
-                  {project.description.split('\n').map((line, i) => (
-                    <React.Fragment key={i}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
+                <p className="mb-4 whitespace-pre-line">
+                  {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
                     {project.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
@@ -340,13 +352,8 @@ export default function AboutPage() {
               <div key={index}>
                 <h3 className="text-xl font-bold">{item.role} at {item.organization}</h3>
                 <p className="text-sm text-muted-foreground">{item.period}</p>
-                <p className="mt-2">
-                  {item.description.split('\n').map((line, i) => (
-                    <React.Fragment key={i}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
+                <p className="mt-2 whitespace-pre-line">
+                  {item.description}
                 </p>
               </div>
             ))}
