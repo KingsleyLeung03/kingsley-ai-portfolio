@@ -21,8 +21,8 @@ const portfolioData = {
     avatar: avatarImg.src,
     summary:
       "A high-achieving Computer Science graduate (GPA 7.1/9) who successfully led a six-member team to develop an AI-powered web platform for wildlife conservation. Combines hands-on internship experience in core system development at Endace with a proven ability to build complete, AI-driven applications using technologies like Next.js, Copilot and Gemini. Ready to leverage a strong foundation in Python, C#, and modern JavaScript frameworks to contribute to impactful, real-world software solutions.",
-    resumeUrl: "/Kingsley_Leung_Resume.pdf",
-    transcriptUrl: "/Kingsley_Leung_Academic_Transcript.pdf",
+    resumeUrl: "/resume/Zihong_Liang_CV.pdf",
+    transcriptUrl: "/transcript/Zihong_Liang_Auckland_Transcript.pdf",
   },
   contact: {
     email: "kingsleyleung2003@outlook.com",
