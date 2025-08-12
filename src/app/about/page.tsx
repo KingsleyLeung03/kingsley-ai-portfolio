@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 const portfolioData = {
   profile: {
     name: "Zihong Liang",
-    title: "Software Developer | C#, Python & TypeScript",
+    title: "Software Developer | C#, Python & TypeScript | Passionate about AI-Driven Problem-Solving and DevOps",
     avatar: avatarImg.src,
     summary:
-      "A high-achieving Computer Science graduate (GPA 7.1/9) who successfully led a six-member team to develop an AI-powered web platform for wildlife conservation. Combines hands-on internship experience in core system development at Endace with a proven ability to build complete, AI-driven applications using technologies like Next.js, Copilot and Gemini. Ready to leverage a strong foundation in Python, C#, and modern JavaScript frameworks to contribute to impactful, real-world software solutions.",
+      "A high-achieving Computer Science graduate (GPA 7.1/9) who successfully led a six-member team to develop an AI-powered web platform for wildlife conservation. Combines hands-on internship experience in core system development at Endace with a proven ability to build complete, AI-driven applications using technologies like Next.js, Copilot and Gemini. Ready to leverage a strong foundation in Python, C#, and modern JavaScript/TypeScript frameworks to contribute to impactful, real-world software solutions.",
     resumeUrl: "/resume/Zihong_Liang_CV.pdf",
     transcriptUrl: "/transcript/Zihong_Liang_Auckland_Transcript.pdf",
   },
@@ -37,11 +37,11 @@ const portfolioData = {
     // Backend
     "Python", "C#", "Java", "ASP.NET", "FastAPI", "Express.js", "Node.js", "Bun",
     // Databases & ORMs
-    "SQL", "LINQ", "Entity Framework (EF Core)", "SQLite", "PostgreSQL", "MongoDB",
+    "SQL", "LINQ", "SQLite", "Entity Framework (EF Core)", "PostgreSQL", "MongoDB",
     // Testing
     "Pytest",
     // DevOps & Tools
-    "Git", "Docker", "Kubernetes", "Linux", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio"
+    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio"
   ],
   workExperience: [
     {
@@ -50,12 +50,12 @@ const portfolioData = {
       period: "Nov 2024 – Feb 2025",
       description:
         [
-          "Architected and developed a modular profile system using Python, FastAPI, and Jinja2 to solve challenges with scalability and maintainability in core network probe products.",
+          "Architected and developed a modular profile system using Python, FastAPI, and Jinja2 to improve scalability and maintainability, assisting in the deployment and configuration on core network probe products.",
           "Engineered a dynamic, user-friendly UI with JavaScript and Bootstrap, earning commendations from senior engineers for its intuitive design and positive user experience.",
           "Enhanced system efficiency and maintainability, streamlining the configuration process for end-users and significantly reducing the potential for setup errors.",
-          "Operated within an Agile framework using Jira, Confluence and Bitbucket, which maximised team productivity and ensured project milestones were met consistently."
-        ].join("\n"),
-        tags: ["Python", "FastAPI", "Jinja2", "JavaScript", "Bootstrap", "Agile", "Jira", "Confluence"]
+          "Operated within an Agile framework using Jira, Confluence and Bitbucket, while collaborating with seniors to enhance features, resolve bugs, and debug issues, maximising team productivity."
+        ],
+        tags: ["Python", "FastAPI", "Jinja2", "JavaScript", "Bootstrap", "Agile", "Jira", "Confluence", "Debugging"]
     },
     {
       role: "Professional Notetaker",
@@ -65,7 +65,7 @@ const portfolioData = {
         [
           "Translated complex academic lectures into clear, accessible, and structured notes for students registered with Student Disability Services, directly supporting academic inclusivity.",
           "Demonstrated high attention to detail and adaptability by delivering quality notes across diverse and technical subjects, consistently meeting strict deadlines."
-        ].join("\n"),
+        ],
         tags: ["Academic Support", "Communication", "Attention to Detail"]
     },
     {
@@ -75,8 +75,8 @@ const portfolioData = {
       description:
         [
           "Provided critical front-line IT support for all hardware, software, and network issues, minimising downtime and ensuring smooth daily operations for the entire office.",
-          "Increased operational efficiency by rapidly diagnosing and resolving technical problems with printers, routers, and desktop applications."
-        ].join("\n"),
+          "Investigated and resolved technical problems with printers, routers, and desktop applications to increase operational efficiency."
+        ],
         tags: ["IT Support", "Hardware Troubleshooting", "Network Support", "Problem Solving"]
     },
   ],
@@ -84,54 +84,36 @@ const portfolioData = {
     {
       name: "CARE Web Platform: AI-Driven Wildlife Conservation",
       description:
-        [
-          "Led a 6-member team in developing a React/Express.js web platform for AI image-based pest detection.",
-          "Backend built with JavaScript and Sequelize, integrated machine learning with support from a PhD group.",
-          "Improved tracking of species like stoats, contributing to NZ biodiversity protection."
-        ].join("\n"),
-      tags: ["React", "Express.js", "JavaScript", "Sequelize", "Machine Learning"],
+        ["Led a 6-member team in developing an HTML, CSS and React web platform for AI image-based pest detection.", "Backend built with Express.js, JavaScript and Sequelize, integrated machine learning with support from a PhD group.", "Improved tracking of species like stoats, contributing to NZ biodiversity protection."],
+      tags: ["React", "Express.js", "JavaScript", "Sequelize", "Machine Learning", "HTML", "CSS"],
       link: "https://www.capitalise.space/projects/6736f7089df43e2d89de9401",
     },
     {
       name: "PhotoRecipe: AI-Powered Recipe Generator",
       description:
-        [
-          "Engineered a full-stack Next.js application leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete 'photo-to-recipe' pipeline.",
-          "Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.",
-          "Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression."
-        ].join("\n"),
+        ["Engineered a full-stack Next.js application leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete 'photo-to-recipe' pipeline.", "Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.", "Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression."],
       tags: ["Next.js", "Firebase Genkit", "Google Gemini", "TypeScript", "Tailwind CSS", "ShadCN"],
       link: "https://photo-recipe-rho.vercel.app",
     },
     {
       name: "vCard Contact Generator",
       description:
-        [
-          "React, Next.js, Tailwind CSS app deployed on Vercel.",
-          "Automated CI with GitHub Actions."
-        ].join("\n"),
-      tags: ["React", "Next.js", "Tailwind CSS", "Vercel", "GitHub Actions"],
+        ["A sleek web app built with React, Next.js, Tailwind CSS, and Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.", "Containerised using Docker for consistent local development and deployment.", "Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel."],
+      tags: ["React", "Next.js", "Tailwind CSS", "Sass", "Docker", "GitHub Actions", "Vercel"],
       link: "https://vcardcontactgenerator.vercel.app",
     },
     {
       name: "Concert Booking Service",
       description:
-        [
-          "C# and ASP.NET MVC web app supporting event browsing and ticket management via RESTful APIs.",
-          "Implemented with Entity Framework, SQLite."
-        ].join("\n"),
-      tags: ["C#", "ASP.NET", "Entity Framework", "SQLite", "LINQ"],
+        ["Developed a full-featured C#/.NET concert booking web app using ASP.NET MVC, supporting event browsing and ticket management via RESTful APIs, implemented with Entity Framework (EF Core), LINQ and SQLite."],
+      tags: ["C#", "ASP.NET", "Entity Framework", "SQLite", "LINQ", ".NET"],
       link: "https://github.com/KingsleyLeung03/concert-booking-service-csharp",
     },
     {
       name: "Game Library Web App",
       description:
-        [
-          "Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern.",
-          "Implemented unit and end-to-end (E2E) testing with Pytest.",
-          "Applied clean architecture principles and modular separation via Flask Blueprints."
-        ].join("\n"),
-      tags: ["Python", "Flask", "SQLAlchemy", "Jinja2", "Pytest"],
+        ["Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.", "Applied clean architecture principles and modular separation via Flask Blueprints."],
+      tags: ["Python", "Flask", "SQLAlchemy", "Jinja2", "Pytest", "Clean Architecture"],
       link: "https://github.com/KingsleyLeung03/cs235-2023-gameswebapp-assignment-zlia403_glo501_skat149",
     },
   ],
@@ -144,7 +126,7 @@ const portfolioData = {
           "Major in Computer Science, GPA: 7.1/9 with two Certificates of Outstanding Achievement from the faculty.",
           "Coursework and Projects: Full-Stack Development, RESTful APIs (Java, C#, Python), SQL, AI/ML, Cybersecurity, Computer Architecture, Data Communications and Security, Operating Systems.",
           "Class Representative for three courses, recognised for leadership with multiple certificates from the student association."
-        ].join("\n"),
+        ],
       tags: ["Computer Science", "Software Engineering", "Full-Stack", "AI/ML", "Cybersecurity", "Operating Systems", "Networking", "Data Communication and Security", "Agile Development", "Database", "Object-Oriented Programming"]
     },
     {
@@ -154,7 +136,7 @@ const portfolioData = {
       description: [
           "Studied Accounting, Mathematics with Calculus, Physics, and Statistics.",
           "Gained experience in Microsoft Office from different coursework."
-        ].join("\n"),
+        ],
       tags: ["Foundation Studies", "Accounting", "Calculus", "Physics", "Statistics"]
     },
   ],
@@ -162,19 +144,19 @@ const portfolioData = {
     {
       name: "Cloudflare TechLabs Certificate",
       issuer: "Cloudflare",
-      description: "Gained insight into real-world incident response, threat modelling, and breach mitigation strategies from the 'Diary of a Cyber Breach Investigator' workshop.",
+      description: ["Participated in 'Diary of a Cyber Breach Investigator' workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies."],
       tags: ["Cybersecurity", "Incident Response", "Threat Modeling"]
     },
     {
       name: "Certificate of Outstanding Achievement (x2)",
       issuer: "School of Computer Science, University of Auckland",
-      description: "Awarded twice for exceptional academic performance in Computer Science courses, placing among the top students in the cohort.",
+      description: ["Awarded for exceptional academic performance in Computer Science courses."],
       tags: ["Academics", "High-Achievement", "Computer Science"]
     },
     {
       name: "Class Representative Certificate (x3)",
       issuer: "Auckland University Students’ Association",
-      description: "Recognised three times for leadership and effective communication as a liaison between students, faculty, and lecturers.",
+      description: ["Recognised for leadership and effective communication on behalf of peers."],
       tags: ["Leadership", "Communication", "Student Advocacy"]
     },
   ],
@@ -183,12 +165,11 @@ const portfolioData = {
       role: "Class Representative (x3)",
       organization: "The University of Auckland",
       period: "2022 – 2024",
-      description:
-        [
-          "Elected as class representative three times (COMPSCI 335, COMPSCI 351, COMPSCI 313).",
-          "Served as a liaison between students, lecturers, tutors, and faculty to communicate feedback and advocate for student needs.",
-          "Recognised with three Certificates of Appreciation from the Auckland University Students’ Association for effective representation and contribution."
-        ].join("\n"),
+      description: [
+        "Elected as class representative three times (COMPSCI 335, COMPSCI 351, COMPSCI 313).",
+        "Served as a liaison between students, lecturers, tutors, and faculty to communicate feedback and advocate for student needs.",
+        "Recognised with three Certificates of Appreciation from the Auckland University Students’ Association for effective representation and contribution."
+      ]
     }
   ],
   interests: [
@@ -290,9 +271,9 @@ export default function AboutPage() {
                  </div>
                 </CardHeader>
                 <CardContent>
-                    <p className="mb-4 whitespace-pre-line text-muted-foreground">
-                        {job.description}
-                    </p>
+                    <ul className="mb-4 list-disc pl-5 space-y-1 text-muted-foreground">
+                        {job.description.map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
                     <div className="flex flex-wrap gap-2">
                         {job.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
                     </div>
@@ -314,9 +295,9 @@ export default function AboutPage() {
                 <CardTitle className="font-headline text-2xl">{project.name}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <p className="mb-4 whitespace-pre-line text-muted-foreground">
-                  {project.description}
-                </p>
+                 <ul className="mb-4 list-disc pl-5 space-y-1 text-muted-foreground">
+                    {Array.isArray(project.description) ? project.description.map((item, i) => <li key={i}>{item}</li>) : <li>{project.description}</li>}
+                </ul>
                 <div className="flex flex-wrap gap-2">
                     {project.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
                 </div>
@@ -346,7 +327,9 @@ export default function AboutPage() {
                             <p className="text-muted-foreground">{edu.institution} | {edu.period}</p>
                         </CardHeader>
                         <CardContent>
-                            <p className="mb-4 whitespace-pre-line text-muted-foreground">{edu.description}</p>
+                            <ul className="mb-4 list-disc pl-5 space-y-1 text-muted-foreground">
+                                {edu.description.map((item, i) => <li key={i}>{item}</li>)}
+                            </ul>
                             <div className="flex flex-wrap gap-2">
                                 {edu.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
                             </div>
@@ -369,7 +352,9 @@ export default function AboutPage() {
                   <p className="text-muted-foreground">{award.issuer}</p>
                 </CardHeader>
                  <CardContent>
-                  <p className="mb-4 text-muted-foreground">{award.description}</p>
+                  <ul className="mb-4 list-disc pl-5 space-y-1 text-muted-foreground">
+                    {Array.isArray(award.description) ? award.description.map((item, i) => <li key={i}>{item}</li>) : <li>{award.description}</li>}
+                  </ul>
                   <div className="flex flex-wrap gap-2">
                     {award.tags.map(tag => <Badge key={tag} variant="outline">{tag}</Badge>)}
                   </div>
@@ -389,9 +374,9 @@ export default function AboutPage() {
               <div key={index}>
                 <h3 className="text-xl font-bold">{item.role} at {item.organization}</h3>
                 <p className="text-sm text-muted-foreground">{item.period}</p>
-                <p className="mt-2 whitespace-pre-line text-muted-foreground">
-                  {item.description}
-                </p>
+                <ul className="mt-2 list-disc pl-5 space-y-1 text-muted-foreground">
+                    {item.description.map((desc, i) => <li key={i}>{desc}</li>)}
+                </ul>
               </div>
             ))}
         </Section>
