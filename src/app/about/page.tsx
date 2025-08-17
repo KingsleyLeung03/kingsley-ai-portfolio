@@ -41,7 +41,7 @@ const portfolioData = {
     // Testing
     "Pytest",
     // DevOps & Tools
-    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio"
+    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD"
   ],
   workExperience: [
     {
@@ -82,24 +82,35 @@ const portfolioData = {
   ],
   projects: [
     {
+      name: "AI-Powered Personal Portfolio",
+      description: [
+        "Developed a responsive, single-page portfolio using Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.",
+        "Integrated an interactive AI chatbot, powered by Google Gemini, capable of answering questions based on resume content.",
+        "Established a CI/CD pipeline with GitHub Actions to automate linting, building, and Docker image creation across multiple operating systems.",
+        "Containerised the application using Docker for consistent and simplified deployment."
+      ],
+      tags: ["Node.js", "Bun", "Next.js", "TypeScript", "Tailwind CSS", "Google Gemini", "GitHub Actions", "CI/CD", "Docker"],
+      link: "https://kingsley-leung.vercel.app",
+    },
+    {
       name: "CARE Web Platform: AI-Driven Wildlife Conservation",
       description:
-        ["Led a 6-member team in developing an HTML, CSS and React web platform for AI image-based pest detection.", "Backend built with Express.js, JavaScript and Sequelize, integrated machine learning with support from a PhD group.", "Improved tracking of species like stoats, contributing to NZ biodiversity protection."],
-      tags: ["React", "Express.js", "JavaScript", "Sequelize", "Machine Learning", "HTML", "CSS"],
+        ["Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.", "Backend built with Node.js, Express.js, JavaScript, Sequalize, integrated machine learning with support from a PhD group.", "Improved tracking of species like stoats, contributing to NZ biodiversity protection."],
+      tags: ["Node.js", "React", "Express.js", "JavaScript", "Sequelize", "Machine Learning", "HTML", "CSS"],
       link: "https://www.capitalise.space/projects/6736f7089df43e2d89de9401",
     },
     {
       name: "PhotoRecipe: AI-Powered Recipe Generator",
       description:
-        ["Engineered a full-stack Next.js application leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete 'photo-to-recipe' pipeline.", "Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.", "Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression."],
-      tags: ["Next.js", "Firebase Genkit", "Google Gemini", "TypeScript", "Tailwind CSS", "ShadCN"],
+        ["Engineered a full-stack Next.js application with Node.js, leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete \"photo-to-recipe\" pipeline.", "Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.", "Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression."],
+      tags: ["Node.js", "Next.js", "Firebase Genkit", "Google Gemini", "TypeScript", "Tailwind CSS", "ShadCN"],
       link: "https://photo-recipe-rho.vercel.app",
     },
     {
       name: "vCard Contact Generator",
       description:
-        ["A sleek web app built with React, Next.js, Tailwind CSS, and Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.", "Containerised using Docker for consistent local development and deployment.", "Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel."],
-      tags: ["React", "Next.js", "Tailwind CSS", "Sass", "Docker", "GitHub Actions", "Vercel"],
+        ["A sleek web app built with Node.js, React, Next.js, Tailwind CSS, Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.", "Containerised using Docker for consistent local development and deployment. Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel."],
+      tags: ["Node.js", "React", "Next.js", "Tailwind CSS", "Sass", "Docker", "GitHub Actions", "CI/CD", "Vercel"],
       link: "https://vcardcontactgenerator.vercel.app",
     },
     {
@@ -112,7 +123,7 @@ const portfolioData = {
     {
       name: "Game Library Web App",
       description:
-        ["Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.", "Applied clean architecture principles and modular separation via Flask Blueprints."],
+        ["Implemented a Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.", "Applied clean architecture principles and modular separation via Flask Blueprints."],
       tags: ["Python", "Flask", "SQLAlchemy", "Jinja2", "Pytest", "Clean Architecture"],
       link: "https://github.com/KingsleyLeung03/cs235-2023-gameswebapp-assignment-zlia403_glo501_skat149",
     },
