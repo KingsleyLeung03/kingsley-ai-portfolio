@@ -120,6 +120,10 @@ C# and ASP.NET MVC web app supporting event browsing and ticket management via R
 
 ## Awards & Certifications
 
+### App Integration Workshop - Level 2
+**IBM**
+Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases.
+
 ### Cloudflare TechLabs Certificate of Attendance
 **Cloudflare**  
 Participated in "Diary of a Cyber Breach Investigator" workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies
