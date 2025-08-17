@@ -30,3 +30,18 @@ During my internship at Endace, I demonstrated exceptional ability by proactivel
 This experience aligns directly with the competencies required for the [] role at []. First, it showcased technical adaptability, as I rapidly mastered new tools (e.g., FastAPI, Bootstrap) to address real-world challenges—a skill critical for building AI agents that streamline business workflows. Second, it emphasised proactive problem-solving, where I went beyond assigned tasks to enhance usability and scalability, mirroring []’s need for candidates who “turn vague problems into solutions”. Finally, my ability to collaborate and communicate technical trade-offs to senior teams, such as justifying the switch from Flask to FastAPI, demonstrates the cross-functional teamwork essential for developing AI agents across marketing, sales, and engineering teams.  
 
 Beyond technical execution, my AI-driven wildlife conservation capstone project at the University of Auckland further highlights my capacity to lead and innovate in complex environments. Leading a six-member team, I developed a Node.js/React platform with AI-powered analytics, balancing agile workflows, resolving conflicts, and integrating diverse technologies. This project required aligning technical execution with user needs, a skill directly applicable to []’s focus on delivering AI solutions that empower businesses. By combining self-driven learning, technical rigour, and a user-centric mindset, I have consistently exceeded expectations—a track record I am eager to apply to []’s mission of building impactful AI agents.  
+
+## What is your experience with the following? Typescript, Next.js, Entity Framework, SQL Server, Entity Framework.
+TypeScript & Next.js
+- Yes, TypeScript is one of my core languages. I have significant experience using it to build full-stack, type-safe applications with Next.js and React.
+- My project portfolio demonstrates this expertise, including the AI-Powered Portfolio, the PhotoRecipe app, and the vCard Contact Generator.
+
+C# & Entity Framework
+- Yes, I have a strong command of C# and the .NET ecosystem, and C# is also one of my core languages. I built a solid foundation in my COMPSCI 335 (Web Programming and Distributed Services) course, where I earned an A Grade and focused heavily on ASP.NET, LINQ, and Entity Framework.
+• I applied this knowledge practically by developing a C# Concert Booking Service, where I used Entity Framework (EF Core) to manage all database interactions and build out the application's RESTful APIs.
+
+SQL, SQL Server & Relational Databases
+- Yes, I have a comprehensive foundation in SQL, validated by both academic excellence and practical application.
+- I earned an A Grade in my BUSAN 201 (Data Management) course, gaining hands-on experience with SQL Server and SSMS.
+- I deepened this knowledge in COMPSCI 351 (Fundamentals of Database Systems), covering advanced topics like relational algebra and normalisation, and was also the elected Class Representative.
+- I have practical experience implementing various ORMs (SQLAlchemy, Entity Framework, Sequelize) with relational databases like PostgreSQL and SQLite across my projects.
