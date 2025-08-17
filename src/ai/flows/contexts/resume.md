@@ -42,7 +42,7 @@ SQL, LINQ, Entity Framework (EF Core), SQLite, PostgreSQL, MongoDB
 Pytest
 
 ### DevOps & Tools
-Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Object-Oriented Programming (OOP)
+Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Object-Oriented Programming (OOP), CI/CD
 
 ## Interests
 
