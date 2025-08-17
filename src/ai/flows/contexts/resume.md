@@ -75,14 +75,14 @@ Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio,
 **Triumen Group Zhuhai Branch** | Aug 2020 – Nov 2020
 
 - Provided critical front-line IT support for all hardware, software, and network issues, minimising downtime and ensuring smooth daily operations for the entire office.
-- Investigating and resolving technical problems with printers, routers, and desktop applications to increase operational efficiency.
+- Investigated and resolved technical problems with printers, routers, and desktop applications to increase operational efficiency.
 
 ## Project Experiences
 
 ### AI-Powered Personal Portfolio
 **[Project Link](https://kingsley-leung.vercel.app)**
 
-- Developed a responsive, single-page portfolio using Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.
+- Developed a responsive, single-page portfolio using Node.js, Bun, Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.
 - Integrated an interactive AI chatbot, powered by Google Gemini, capable of answering questions based on resume content.
 - Established a CI/CD pipeline with GitHub Actions to automate linting, building, and Docker image creation across multiple operating systems.
 - Containerised the application using Docker for consistent and simplified deployment.
