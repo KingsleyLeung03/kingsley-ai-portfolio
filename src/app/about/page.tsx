@@ -55,7 +55,7 @@ const portfolioData = {
           "Enhanced system efficiency and maintainability, streamlining the configuration process for end-users and significantly reducing the potential for setup errors.",
           "Operated within an Agile framework using Jira, Confluence and Bitbucket, while collaborating with seniors to enhance features, resolve bugs, and debug issues, maximising team productivity."
         ],
-        tags: ["Python", "FastAPI", "Jinja2", "JavaScript", "Bootstrap", "Agile", "Jira", "Confluence", "Debugging"]
+        tags: ["Python", "FastAPI", "Jinja2", "JavaScript", "Bootstrap", "jQuery", "Agile", "Jira", "Confluence", "Debugging"]
     },
     {
       role: "Professional Notetaker",
@@ -130,7 +130,7 @@ const portfolioData = {
       tags: ["Computer Science", "Software Engineering", "Full-Stack", "AI/ML", "Cybersecurity", "Operating Systems", "Networking", "Data Communication and Security", "Agile Development", "Database", "Object-Oriented Programming"]
     },
     {
-      degree: "Certificate in Foundation Studies",
+      degree: "Certificate in Foundation Studies (Level 3)",
       institution: "The University of Auckland International College",
       period: "Jan 2021 – Dec 2021",
       description: [
@@ -142,6 +142,12 @@ const portfolioData = {
   ],
   awards: [
     {
+      name: "App Integration Workshop - Level 2",
+      issuer: "IBM",
+      description: ["Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases."],
+      tags: ["App Integration", "IBM"]
+    },
+    {
       name: "Cloudflare TechLabs Certificate",
       issuer: "Cloudflare",
       description: ["Participated in 'Diary of a Cyber Breach Investigator' workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies."],
@@ -150,13 +156,20 @@ const portfolioData = {
     {
       name: "Certificate of Outstanding Achievement (x2)",
       issuer: "School of Computer Science, University of Auckland",
-      description: ["Awarded for exceptional academic performance in Computer Science courses."],
+      description: [
+        "For achieving an A+ grade in COMPSCI 235 (Software Development Methodologies) in S2 2023.",
+        "For achieving an A+ grade in COMPSCI 230 (Object Oriented Software Development) in S1 2023."
+      ],
       tags: ["Academics", "High-Achievement", "Computer Science"]
     },
     {
       name: "Class Representative Certificate (x3)",
       issuer: "Auckland University Students’ Association",
-      description: ["Recognised for leadership and effective communication on behalf of peers."],
+      description: [
+        "For representing COMPSCI 313 (Computer Architecture) in S2 2024.",
+        "For representing COMPSCI 351 (Fundamentals of Database Systems) in S1 2024.",
+        "For representing COMPSCI 335 (Web Programming and Distributed Services) in S2 2023."
+      ],
       tags: ["Leadership", "Communication", "Student Advocacy"]
     },
   ],
@@ -209,7 +222,9 @@ export default function AboutPage() {
         <div>
           <h1 className="font-headline text-5xl md:text-6xl font-bold">{profile.name}</h1>
           <p className="mt-2 text-sm text-muted-foreground">Preferred name: Kingsley Leung (He/Him)</p>
-          <p className="mt-2 text-xl md:text-2xl text-primary font-semibold">{profile.title}</p>
+          <p className="mt-2 text-xl md:text-2xl text-primary font-semibold">
+            <span className="whitespace-nowrap">Software Developer</span> | <span className="whitespace-nowrap">C#, Python & TypeScript</span> | <span className="whitespace-nowrap">Passionate about AI-Driven Problem-Solving and DevOps</span>
+          </p>
           <p className="mt-4 text-lg text-muted-foreground">{profile.summary}</p>
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button asChild size="lg">
