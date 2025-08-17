@@ -8,24 +8,24 @@
 - **Email:** kingsleyleung2003@outlook.com
 - **Phone:** +64 22 324 8990
 - **GitHub:** [KingsleyLeung03](https://github.com/KingsleyLeung03)
+- **AI-Powered Portfolio:** [https://kingsley-leung.vercel.app](https://kingsley-leung.vercel.app)
 
 ## Personal Profile
 
-A high-achieving Computer Science graduate (GPA 7.1/9) who successfully led a six-member team to develop an AI-powered web platform for wildlife conservation. Combines hands-on internship experience in core system development at Endace with a proven ability to build complete, AI-driven applications using technologies like Next.js, Copilot and Gemini. Ready to leverage a strong foundation in Python, C#, and modern JavaScript frameworks to contribute to impactful, real-world software solutions.
+A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in building and maintaining APIs, debugging complex issues, and utilising modern frameworks, demonstrated through internship at Endace and multiple full-stack projects. Recognised for being collaborative, adaptable, and continuously learning to stay ahead with the latest technologies. Ready to leverage a strong foundation in Python, C#, TypeScript to contribute to impactful, real-world software solutions.
 
 ## Education History
 
 ### The University of Auckland
 **Bachelor of Science** | Jan 2022 – May 2025  
-Major in Computer Science, GPA: 7.1/9 with two Certificates of Outstanding Achievement from the faculty.
-
-**Coursework and Projects:** Full-Stack Development, RESTful APIs (Java, C#, Python), SQL, AI/ML, Cybersecurity, Computer Architecture, Data Communications and Security, Operating Systems.
-
-Class Representative for three courses, recognised for leadership with multiple certificates from the student association.
+- Major in Computer Science, GPA: 7.1/9 with two Certificates of Outstanding Achievement from the faculty.
+- **Coursework and Projects:** Full-Stack Development, RESTful APIs (Java, C#, Python), SQL, AI/ML, Cybersecurity, Computer Architecture, Data Communications and Security, Operating Systems.
+- Class Representative for three courses, recognised for leadership with multiple certificates from the student association.
 
 ### The University of Auckland International College
 **The University of Auckland Certificate in Foundation Studies (Level 3)** | Jan 2021 – Dec 2021  
-Studied Accounting, Mathematics with Calculus, Physics, and Statistics. Gained experience in Microsoft Office from different coursework.
+- Studied Accounting, Mathematics with Calculus, Physics, and Statistics. 
+- Gained experience in Microsoft Office from different coursework.
 
 ## Skills
 
@@ -42,7 +42,7 @@ SQL, LINQ, Entity Framework (EF Core), SQLite, PostgreSQL, MongoDB
 Pytest
 
 ### DevOps & Tools
-Git, Docker, Linux, GitHub Actions, Vercel, Jira, Confluence, Visual Studio
+Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Object-Oriented Programming (OOP)
 
 ## Interests
 
@@ -60,10 +60,10 @@ Git, Docker, Linux, GitHub Actions, Vercel, Jira, Confluence, Visual Studio
 ### Engineering Intern
 **Endace Technology** | Nov 2024 – Feb 2025
 
-- Architected and developed a modular profile system using Python, FastAPI, and Jinja2 to solve challenges with scalability and maintainability in core network probe products.
-- Engineered a dynamic, user-friendly UI with JavaScript and Bootstrap, earning commendations from senior engineers for its intuitive design and positive user experience.
+- Architected and developed a modular profile system using Python, FastAPI, and Jinja2 to improve scalability and maintainability, assisting in the deployment and configuration on core network probe products.
+- Designed and implemented a dynamic, user-friendly UI with JavaScript and Bootstrap, earning commendations from senior engineers for its intuitive design and positive user experience.
 - Enhanced system efficiency and maintainability, streamlining the configuration process for end-users and significantly reducing the potential for setup errors.
-- Operated within an Agile framework using Jira, Confluence and Bitbucket, which maximised team productivity and ensured project milestones were met consistently.
+- Worked collaboratively in an Agile team using Jira, Confluence and Bitbucket, while collaborating with seniors to enhance features, resolve bugs, and debug issues, maximising team productivity.
 
 ### Professional Notetaker
 **The University of Auckland** | Aug 2024 – Dec 2024
@@ -75,39 +75,48 @@ Git, Docker, Linux, GitHub Actions, Vercel, Jira, Confluence, Visual Studio
 **Triumen Group Zhuhai Branch** | Aug 2020 – Nov 2020
 
 - Provided critical front-line IT support for all hardware, software, and network issues, minimising downtime and ensuring smooth daily operations for the entire office.
-- Increased operational efficiency by rapidly diagnosing and resolving technical problems with printers, routers, and desktop applications.
+- Investigating and resolving technical problems with printers, routers, and desktop applications to increase operational efficiency.
 
 ## Project Experiences
+
+### AI-Powered Personal Portfolio
+**[Project Link](https://kingsley-leung.vercel.app)**
+
+- Developed a responsive, single-page portfolio using Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.
+- Integrated an interactive AI chatbot, powered by Google Gemini, capable of answering questions based on resume content.
+- Established a CI/CD pipeline with GitHub Actions to automate linting, building, and Docker image creation across multiple operating systems.
+- Containerised the application using Docker for consistent and simplified deployment.
 
 ### CARE Web Platform: AI-Driven Wildlife Conservation
 **[Project Link](https://www.capitalise.space/projects/6736f7089df43e2d89de9401)**
 
-- Led a 6-member team in developing a React/Express.js web platform for AI image-based pest detection
-- Backend built with JavaScript and Sequelize, integrated machine learning with support from a PhD group
-- Improved tracking of species like stoats, contributing to NZ biodiversity protection
+- Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.
+- Backend built with Node.js, Express.js, JavaScript, Sequalize, integrated machine learning with support from a PhD group.
+- Improved tracking of species like stoats, contributing to NZ biodiversity protection.
 
 ### PhotoRecipe: AI-Powered Recipe Generator
 **[Project Link](https://photo-recipe-rho.vercel.app)**
 
-- Engineered a full-stack Next.js application leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete "photo-to-recipe" pipeline
-- Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images
-- Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression
+- Engineered a full-stack Next.js application with Node.js, leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete "photo-to-recipe" pipeline.
+- Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.
+- Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression.
 
 ### vCard Contact Generator
 **[Project Link](https://vcardcontactgenerator.vercel.app)**
 
-React, Next.js, Tailwind CSS app deployed on Vercel, automated CI with GitHub Actions
+- A sleek web app built with Node.js, React, Next.js, Tailwind CSS, Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.
+- Containerised using Docker for consistent local development and deployment. Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel.
 
 ### Concert Booking Service
 **[GitHub Repository](https://github.com/KingsleyLeung03/concert-booking-service-csharp)**
 
-C# and ASP.NET MVC web app supporting event browsing and ticket management via RESTful APIs, implemented with Entity Framework, SQLite
+- Developed a full-featured C#/.NET concert booking web app using ASP.NET MVC, supporting event browsing and ticket management via RESTful APIs, implemented with Entity Framework (EF Core), LINQ and SQLite.
 
 ### Game Library Web App
 **[GitHub Repository](https://github.com/KingsleyLeung03/cs235-2023-gameswebapp-assignment-zlia403_glo501_skat149)**
 
-- Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest
-- Applied clean architecture principles and modular separation via Flask Blueprints
+- Implemented a Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.
+- Applied clean architecture principles and modular separation via Flask Blueprints.
 
 ## Volunteer Experiences
 
