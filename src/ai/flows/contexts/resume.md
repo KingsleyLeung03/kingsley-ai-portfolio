@@ -120,17 +120,28 @@ C# and ASP.NET MVC web app supporting event browsing and ticket management via R
 
 ## Awards & Certifications
 
+### App Integration Workshop - Level 2
+**IBM**
+Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases.  
+Skills demonstrated successfully in a supervised environment through completion of at least one hands-on lab or design thinking activity, as validated by IBM.  
+This credential earner has advanced their technical knowledge in App Integration. They have gained practical experience and developed a deeper understanding of App Integration concepts and processes through exploration of use cases and integration of applications.  
+
 ### Cloudflare TechLabs Certificate of Attendance
 **Cloudflare**  
-Participated in "Diary of a Cyber Breach Investigator" workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies
+Participated in "Diary of a Cyber Breach Investigator" workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies.
 
 ### Certificate of Outstanding Achievement (x2)
 **School of Computer Science, the University of Auckland**  
-Awarded for exceptional academic performance in Computer Science courses
+Awarded for exceptional academic performance in Computer Science courses.  
+For achieving an A+ grade in COMPSCI 235 (Software Development Methodologies) in S2 2023.  
+For achieving an A+ grade in COMPSCI 230 (Object Oriented Software Development) in S1 2023.  
 
 ### Class Representative Certificates of Appreciation (x3)
 **Auckland University Students' Association (AUSA)**  
-Recognised for leadership and effective communication on behalf of peers
+Recognised for leadership and effective communication on behalf of peers.
+For representing COMPSCI 313 (Computer Architecture) in S2 2024.  
+For representing COMPSCI 351 (Fundamentals of Database Systems) in S1 2024.  
+For representing COMPSCI 335 (Web Programming and Distributed Services) in S2 2023.  
 
 ---
 
