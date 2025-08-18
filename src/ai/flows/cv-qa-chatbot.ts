@@ -3,7 +3,6 @@
 import OpenAI from "openai";
 import { readdirSync, readFileSync } from "fs";
 import path from "path";
-import { headers } from 'next/headers';
 
 const openai = new OpenAI({
   apiKey: process.env.GEMINI_API_KEY,
@@ -29,7 +28,7 @@ try {
 export type CvQAInput = string;
 export type CvQAOutput = string;
 
-export async function cvQA(input: CvQAInput, domain: string): Promise<CvQAOutput> {
+export async function cvQA(input: CvQAInput): Promise<CvQAOutput> {
   if (!process.env.GEMINI_API_KEY) {
     return "The GEMINI_API_KEY environment variable is not set. Please add it to your .env file.";
   }
