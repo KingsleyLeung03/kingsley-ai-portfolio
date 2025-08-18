@@ -7,7 +7,7 @@ WORKDIR /app
 
 # ---- Dependencies ----
 # Install dependencies in a separate layer to leverage Docker's caching.
-# Make sure bun.lockb is present in your project root by running `bun install`
+# Make sure bun.lock is present in your project root by running `bun install`
 # and commit it to your repository.
 FROM base AS deps
 COPY package.json bun.lock ./
