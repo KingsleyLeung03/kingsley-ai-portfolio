@@ -153,6 +153,16 @@ const portfolioData = {
   ],
   awards: [
     {
+      name: "Pixel Perfect Award - The Figured Internship Experience",
+      issuer: "Figured, Web Development & Consulting Club (WDCC)",
+      description: [
+        "Awarded in a team hackathon for developing a financial reporting interface that most faithfully aligned with the product requirements and design specifications. Shows strong skills in collaborating, rapid learning and applying new tech stacks.", 
+        "Developed within a Laravel Sail Docker environment, utilised PHP, Laravel for backend API, and Vue.js, Tailwind CSS for frontend to create a visually appealing Profit & Loss report featuring interactive graphs for data visualisation.", 
+        "Went beyond the core requirements by integrating an LLM via the Laravel Prism to generate AI-powered financial commentary directly within the report."
+      ],
+      tags: ["Laravel", "Vue.js", "PHP", "TypeScript", "Tailwind CSS", "Docker", "AI Integration", "Hackathon"]
+    },
+    {
       name: "App Integration Workshop - Level 2",
       issuer: "IBM",
       description: ["Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases."],

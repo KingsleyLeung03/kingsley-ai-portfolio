@@ -38,7 +38,7 @@ TypeScript & Next.js
 
 C# & Entity Framework
 - Yes, I have a strong command of C# and the .NET ecosystem, and C# is also one of my core languages. I built a solid foundation in my COMPSCI 335 (Web Programming and Distributed Services) course, where I earned an A Grade and focused heavily on ASP.NET, LINQ, and Entity Framework.
-• I applied this knowledge practically by developing a C# Concert Booking Service, where I used Entity Framework (EF Core) to manage all database interactions and build out the application's RESTful APIs.
+- I applied this knowledge practically by developing a C# Concert Booking Service, where I used Entity Framework (EF Core) to manage all database interactions and build out the application's RESTful APIs.
 
 SQL, SQL Server & Relational Databases
 - Yes, I have a comprehensive foundation in SQL, validated by both academic excellence and practical application.
