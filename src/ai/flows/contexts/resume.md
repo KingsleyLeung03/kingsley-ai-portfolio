@@ -1,6 +1,6 @@
 # Zihong Liang
 
-**Software Developer | C#, Python & TypeScript | Passionate about AI-Driven Problem-Solving**
+**Software Developer | C#, Python & TypeScript | Passionate about AI-Driven Problem-Solving and DevOps**
 
 ## Contact Information
 
@@ -12,7 +12,7 @@
 
 ## Personal Profile
 
-A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in building and maintaining APIs, debugging complex issues, and utilising modern frameworks, demonstrated through internship at Endace and multiple full-stack projects. Recognised for being collaborative, adaptable, and continuously learning to stay ahead with the latest technologies. Ready to leverage a strong foundation in Python, C#, TypeScript to contribute to impactful, real-world software solutions.
+A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in full-stack development, including building APIs with Node.js, FastAPI, ASP.NET, and implementing user interface with React. Recognised for being collaborative and continuously learning new tech stacks like AWS as needed, demonstrated through an internship at Endace and multiple projects. Proficient in DevOps practices, including Git, Docker, CI/CD. Ready to leverage learning skills and a strong foundation in Python, C#, TypeScript to contribute to impactful, real-world software solutions.
 
 ## Education History
 
@@ -44,10 +44,13 @@ Pytest
 ### DevOps & Tools
 Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Object-Oriented Programming (OOP), CI/CD
 
+### Others
+Continuously Learning, AI, MCP
+
 ## Interests
 
 - Chatting about emerging technologies
-- Attending workshops and tech meetups
+- Attending workshops and tech meetups to expand network and boost development experiences
 - Developing personal projects
 - Enjoying Lo-Fi music
 - Solving IT issues for family and friends
@@ -91,7 +94,8 @@ Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio,
 **[Project Link](https://www.capitalise.space/projects/6736f7089df43e2d89de9401)**
 
 - Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.
-- Backend built with Node.js, Express.js, JavaScript, Sequalize, integrated machine learning with support from a PhD group.
+- Developed a full-stack solution, building the backend API with JavaScript, Node.js and Express.js. Collaborated closely with a PhD research group to integrate machine learning models.
+- Managed the project using Agile methodologies, including sprint planning and task tracking, to ensure on-time delivery.
 - Improved tracking of species like stoats, contributing to NZ biodiversity protection.
 
 ### PhotoRecipe: AI-Powered Recipe Generator
@@ -129,28 +133,34 @@ Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio,
 
 ## Awards & Certifications
 
+### Pixel Perfect Award - The Figured Internship Experience
+**Figured, Web Development & Consulting Club (WDCC)**
+- Awarded in a team hackathon for developing a financial reporting interface that most faithfully aligned with the product requirements and design specifications. Shows strong skills in collaborating, rapid learning and applying new tech stacks.
+- Developed within a Laravel Sail Docker environment, utilised PHP, Laravel for backend API, and Vue.js, Tailwind CSS for frontend to create a visually appealing Profit & Loss report featuring interactive graphs for data visualisation.
+- Went beyond the core requirements by integrating an LLM via the Laravel Prism to generate AI-powered financial commentary directly within the report.
+
 ### App Integration Workshop - Level 2
 **IBM**
-Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases.  
-Skills demonstrated successfully in a supervised environment through completion of at least one hands-on lab or design thinking activity, as validated by IBM.  
-This credential earner has advanced their technical knowledge in App Integration. They have gained practical experience and developed a deeper understanding of App Integration concepts and processes through exploration of use cases and integration of applications.  
+- Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases.  
+- Skills demonstrated successfully in a supervised environment through completion of at least one hands-on lab or design thinking activity, as validated by IBM.  
+- This credential earner has advanced their technical knowledge in App Integration. They have gained practical experience and developed a deeper understanding of App Integration concepts and processes through exploration of use cases and integration of applications.  
 
 ### Cloudflare TechLabs Certificate of Attendance
 **Cloudflare**  
-Participated in "Diary of a Cyber Breach Investigator" workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies.
+- Participated in "Diary of a Cyber Breach Investigator" workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies.
 
 ### Certificate of Outstanding Achievement (x2)
 **School of Computer Science, the University of Auckland**  
-Awarded for exceptional academic performance in Computer Science courses.  
-For achieving an A+ grade in COMPSCI 235 (Software Development Methodologies) in S2 2023.  
-For achieving an A+ grade in COMPSCI 230 (Object Oriented Software Development) in S1 2023.  
+- Awarded for exceptional academic performance in Computer Science courses.  
+- For achieving an A+ grade in COMPSCI 235 (Software Development Methodologies) in S2 2023.  
+- For achieving an A+ grade in COMPSCI 230 (Object Oriented Software Development) in S1 2023.  
 
 ### Class Representative Certificates of Appreciation (x3)
 **Auckland University Students' Association (AUSA)**  
-Recognised for leadership and effective communication on behalf of peers.
-For representing COMPSCI 313 (Computer Architecture) in S2 2024.  
-For representing COMPSCI 351 (Fundamentals of Database Systems) in S1 2024.  
-For representing COMPSCI 335 (Web Programming and Distributed Services) in S2 2023.  
+- Recognised for leadership and effective communication on behalf of peers.
+- For representing COMPSCI 313 (Computer Architecture) in S2 2024.  
+- For representing COMPSCI 351 (Fundamentals of Database Systems) in S1 2024.  
+- For representing COMPSCI 335 (Web Programming and Distributed Services) in S2 2023.  
 
 ---
 
