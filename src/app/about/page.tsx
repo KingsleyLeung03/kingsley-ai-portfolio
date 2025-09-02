@@ -20,7 +20,7 @@ const portfolioData = {
     title: "Software Developer | C#, Python & TypeScript | Passionate about AI-Driven Problem-Solving and DevOps",
     avatar: avatarImg.src,
     summary:
-      "A high-achieving Computer Science graduate (GPA 7.1/9) who successfully led a six-member team to develop an AI-powered web platform for wildlife conservation. Combines hands-on internship experience in core system development at Endace with a proven ability to build complete, AI-driven applications using technologies like Next.js, Copilot and Gemini. Ready to leverage a strong foundation in Python, C#, and modern JavaScript/TypeScript frameworks to contribute to impactful, real-world software solutions.",
+      "A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in full-stack development, recognised for being collaborative and continuously learning new tech stacks like AWS as needed, demonstrated through an internship at Endace and multiple projects. Proficient in DevOps practices, including Git, Docker, CI/CD. Ready to leverage a strong foundation in C#, TypeScript and Python.",
     resumeUrl: "/resume/Zihong_Liang_CV.pdf",
     transcriptUrl: "/transcript/Zihong_Liang_Auckland_Transcript.pdf",
   },
@@ -33,7 +33,7 @@ const portfolioData = {
   },
   skills: [
     // Frontend
-    "TypeScript", "React", "Angular", "Next.js", "HTML", "CSS", "Tailwind", "Bootstrap",
+    "JavaScript", "TypeScript", "React", "Angular", "Next.js", "HTML", "CSS", "Tailwind CSS", "Sass", "Bootstrap",
     // Backend
     "Python", "C#", "Java", "ASP.NET", "FastAPI", "Express.js", "Node.js", "Bun",
     // Databases & ORMs
@@ -41,7 +41,7 @@ const portfolioData = {
     // Testing
     "Pytest",
     // DevOps & Tools
-    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD"
+    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains"
   ],
   workExperience: [
     {
@@ -84,46 +84,57 @@ const portfolioData = {
     {
       name: "AI-Powered Personal Portfolio",
       description: [
-        "Developed a responsive, single-page portfolio using Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.",
-        "Integrated an interactive AI chatbot, powered by Google Gemini, capable of answering questions based on resume content.",
-        "Established a CI/CD pipeline with GitHub Actions to automate linting, building, and Docker image creation across multiple operating systems.",
-        "Containerised the application using Docker for consistent and simplified deployment."
+        "Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.", 
+        "Developed a full-stack solution, building the backend API with JavaScript, Node.js and Express.js. Collaborated closely with a PhD research group to integrate machine learning models.", 
+        "Managed the project using Agile methodologies, including sprint planning and task tracking, to ensure on-time delivery.", 
+        "Improved tracking of species like stoats, contributing to NZ biodiversity protection."
       ],
       tags: ["Node.js", "Bun", "Next.js", "TypeScript", "Tailwind CSS", "Google Gemini", "GitHub Actions", "CI/CD", "Docker"],
       link: "https://kingsley-leung.vercel.app",
     },
     {
       name: "CARE Web Platform: AI-Driven Wildlife Conservation",
-      description:
-        ["Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.", "Backend built with Node.js, Express.js, JavaScript, Sequalize, integrated machine learning with support from a PhD group.", "Improved tracking of species like stoats, contributing to NZ biodiversity protection."],
+      description: [
+        "Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.", 
+        "Backend built with Node.js, Express.js, JavaScript, Sequalize, integrated machine learning with support from a PhD group.", 
+        "Improved tracking of species like stoats, contributing to NZ biodiversity protection."
+      ],
       tags: ["Node.js", "React", "Express.js", "JavaScript", "Sequelize", "Machine Learning", "HTML", "CSS"],
       link: "https://www.capitalise.space/projects/6736f7089df43e2d89de9401",
     },
     {
       name: "PhotoRecipe: AI-Powered Recipe Generator",
-      description:
-        ["Engineered a full-stack Next.js application with Node.js, leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete \"photo-to-recipe\" pipeline.", "Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.", "Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression."],
+      description: [
+        "Engineered a full-stack Next.js application with Node.js, leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete \"photo-to-recipe\" pipeline.", 
+        "Implemented core features including AI-driven ingredient identification from photos, dynamic recipe generation with detailed instructions and nutritional information, and unique AI-generated dish images.", 
+        "Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression."
+      ],
       tags: ["Node.js", "Next.js", "Firebase Genkit", "Google Gemini", "TypeScript", "Tailwind CSS", "ShadCN"],
       link: "https://photo-recipe-rho.vercel.app",
     },
     {
       name: "vCard Contact Generator",
-      description:
-        ["A sleek web app built with Node.js, React, Next.js, Tailwind CSS, Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.", "Containerised using Docker for consistent local development and deployment. Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel."],
+      description: [
+        "A sleek web app built with Node.js, React, Next.js, Tailwind CSS, Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.", 
+        "Containerised using Docker for consistent local development and deployment. Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel."
+      ],
       tags: ["Node.js", "React", "Next.js", "Tailwind CSS", "Sass", "Docker", "GitHub Actions", "CI/CD", "Vercel"],
       link: "https://vcardcontactgenerator.vercel.app",
     },
     {
       name: "Concert Booking Service",
-      description:
-        ["Developed a full-featured C#/.NET concert booking web app using ASP.NET MVC, supporting event browsing and ticket management via RESTful APIs, implemented with Entity Framework (EF Core), LINQ and SQLite."],
+      description: [
+        "Developed a full-featured C#/.NET concert booking web app using ASP.NET MVC, supporting event browsing and ticket management via RESTful APIs, implemented with Entity Framework (EF Core), LINQ and SQLite."
+      ],
       tags: ["C#", "ASP.NET", "Entity Framework", "SQLite", "LINQ", ".NET"],
       link: "https://github.com/KingsleyLeung03/concert-booking-service-csharp",
     },
     {
       name: "Game Library Web App",
-      description:
-        ["Implemented a Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.", "Applied clean architecture principles and modular separation via Flask Blueprints."],
+      description: [
+        "Implemented a Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.", 
+        "Applied clean architecture principles and modular separation via Flask Blueprints."
+      ],
       tags: ["Python", "Flask", "SQLAlchemy", "Jinja2", "Pytest", "Clean Architecture"],
       link: "https://github.com/KingsleyLeung03/cs235-2023-gameswebapp-assignment-zlia403_glo501_skat149",
     },
@@ -207,14 +218,13 @@ const portfolioData = {
     }
   ],
   interests: [
-    "Chatting about emerging technologies",
-    "Attending workshops and tech meetups",
-    "Developing personal projects",
-    "Enjoying Lo-Fi music",
-    "Solving IT issues for family and friends",
-    "Gaming",
-    "Traveling",
-    "Sharing my Cantonese cultures"
+    "Chatting about emerging technologies", 
+    "Attending workshops and tech meetups to expand network and boost development experiences", 
+    "Developing personal projects", 
+    "Enjoying Lo-Fi music", 
+    "Solving IT issues for family and friends", 
+    "Gaming, Travelling", 
+    "Sharing my Cantonese culture"
   ],
 };
 
