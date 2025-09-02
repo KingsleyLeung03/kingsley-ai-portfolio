@@ -12,7 +12,7 @@
 
 ## Personal Profile
 
-A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in full-stack development, including building APIs with Node.js, FastAPI, ASP.NET, and implementing user interface with React. Recognised for being collaborative and continuously learning new tech stacks like AWS as needed, demonstrated through an internship at Endace and multiple projects. Proficient in DevOps practices, including Git, Docker, CI/CD. Ready to leverage learning skills and a strong foundation in Python, C#, TypeScript to contribute to impactful, real-world software solutions.
+A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in full-stack development, recognised for being collaborative and continuously learning new tech stacks like AWS as needed, demonstrated through an internship at Endace and multiple projects. Proficient in DevOps practices, including Git, Docker, CI/CD. Ready to leverage a strong foundation in C#, TypeScript and Python.  
 
 ## Education History
 
@@ -30,22 +30,22 @@ A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team
 ## Skills
 
 ### Frontend
-TypeScript, React, Angular, Next.js, HTML, CSS, Tailwind, Bootstrap
+JavaScript, TypeScript, React, Angular, Next.js, HTML, CSS, Tailwind CSS, Sass, Bootstrap
 
 ### Backend
 Python, C#, Java, ASP.NET, FastAPI, Express.js, Node.js, Bun
 
 ### Databases & ORMs
-SQL, LINQ, Entity Framework (EF Core), SQLite, PostgreSQL, MongoDB
+SQL, LINQ, SQLite, Entity Framework (EF Core), PostgreSQL, MongoDB
 
 ### Testing
 Pytest
 
 ### DevOps & Tools
-Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Object-Oriented Programming (OOP), CI/CD
+Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Cloudflare Workers, Object-Oriented Programming (OOP), JetBrains (PyCharm, IntelliJ IDEA...), CI/CD
 
 ### Others
-Continuously Learning, AI, MCP
+Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 
 ## Interests
 
@@ -54,9 +54,8 @@ Continuously Learning, AI, MCP
 - Developing personal projects
 - Enjoying Lo-Fi music
 - Solving IT issues for family and friends
-- Gaming
-- Traveling
-- Sharing my Cantonese cultures
+- Gaming, Travelling
+- Sharing my Cantonese culture
 
 ## Work Experience
 
@@ -89,6 +88,13 @@ Continuously Learning, AI, MCP
 - Integrated an interactive AI chatbot, powered by Google Gemini, capable of answering questions based on resume content.
 - Established a CI/CD pipeline with GitHub Actions to automate linting, building, and Docker image creation across multiple operating systems.
 - Containerised the application using Docker for consistent and simplified deployment.
+
+### PowerGPT — Remote MCP Server for LLM Tool Augmentation
+**[GitHub Repository](https://github.com/KingsleyLeung03/power-gpt)**
+
+- Built and deployed an MCP (Model Context Protocol) server on Cloudflare Workers using TypeScript, Bun, Wrangler, GitHub Actions, and optional Docker for reproducible local runs.
+- Delivered secure, auditable numeric computation and web content extraction tools to extend LLM capabilities, especially in offline or restricted environments.
+- Enhanced reliability and adoption by centralising computation/fetching, reducing hallucination risk, and providing clear documentation to connect the MCP to Cloudflare AI Playground and Claude Desktop.
 
 ### CARE Web Platform: AI-Driven Wildlife Conservation
 **[Project Link](https://www.capitalise.space/projects/6736f7089df43e2d89de9401)**
@@ -127,9 +133,9 @@ Continuously Learning, AI, MCP
 ### Class Representatives (x3)
 **The University of Auckland**
 
-- Elected as class representative three times (COMPSCI 335, COMPSCI 351, COMPSCI 313)
-- Served as a liaison between students, lecturers, tutors, and faculty to communicate feedback and advocate for student needs
-- Recognised with three Certificates of Appreciation from the Auckland University Students' Association for effective representation and contribution
+- Elected as class representative three times (COMPSCI 335, COMPSCI 351, COMPSCI 313).
+- Served as a liaison between students, lecturers, tutors, and faculty to communicate feedback and advocate for student needs.
+- Recognised with three Certificates of Appreciation from the Auckland University Students' Association for effective representation and contribution.
 
 ## Awards & Certifications
 
