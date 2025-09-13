@@ -41,7 +41,7 @@ const portfolioData = {
     // Testing
     "Pytest",
     // DevOps & Tools
-    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains"
+    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains", "Terraform"
   ],
   workExperience: [
     {
@@ -84,22 +84,33 @@ const portfolioData = {
     {
       name: "AI-Powered Personal Portfolio",
       description: [
-        "Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.", 
-        "Developed a full-stack solution, building the backend API with JavaScript, Node.js and Express.js. Collaborated closely with a PhD research group to integrate machine learning models.", 
-        "Managed the project using Agile methodologies, including sprint planning and task tracking, to ensure on-time delivery.", 
-        "Improved tracking of species like stoats, contributing to NZ biodiversity protection."
+        "Developed a responsive, single-page portfolio using Node.js, Bun, Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.",
+        "Integrated an interactive AI chatbot, powered by Google Gemini, capable of answering questions based on resume content.",
+        "Established a CI/CD pipeline with GitHub Actions to automate linting, building, and Docker image creation across multiple operating systems.",
+        "Containerised the application using Docker for consistent and simplified deployment."
       ],
       tags: ["Node.js", "Bun", "Next.js", "TypeScript", "Tailwind CSS", "Google Gemini", "GitHub Actions", "CI/CD", "Docker"],
       link: "https://kingsley-leung.vercel.app",
     },
     {
+      name: "PowerGPT — Remote MCP Server for LLM Tool Augmentation",
+      description: [
+        "Built and deployed an MCP (Model Context Protocol) server on Cloudflare Workers using TypeScript, Bun, Wrangler, GitHub Actions, and optional Docker for reproducible local runs.",
+        "Delivered secure, auditable numeric computation and web content extraction tools to extend LLM capabilities, especially in offline or restricted environments.",
+        "Enhanced reliability and adoption by centralising computation/fetching, reducing hallucination risk, and providing clear documentation to connect the MCP to Cloudflare AI Playground and Claude Desktop."
+      ],
+      tags: ["TypeScript", "Bun", "Cloudflare Workers", "Wrangler", "GitHub Actions", "Docker"],
+      link: "https://github.com/KingsleyLeung03/power-gpt",
+    },
+    {
       name: "CARE Web Platform: AI-Driven Wildlife Conservation",
       description: [
-        "Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.", 
-        "Backend built with Node.js, Express.js, JavaScript, Sequalize, integrated machine learning with support from a PhD group.", 
+        "Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.",
+        "Developed a full-stack solution, building the backend API with JavaScript, Node.js and Express.js. Collaborated closely with a PhD research group to integrate machine learning models.",
+        "Managed the project using Agile methodologies, including sprint planning and task tracking, to ensure on-time delivery.",
         "Improved tracking of species like stoats, contributing to NZ biodiversity protection."
       ],
-      tags: ["Node.js", "React", "Express.js", "JavaScript", "Sequelize", "Machine Learning", "HTML", "CSS"],
+      tags: ["React", "Node.js", "Express.js", "JavaScript", "HTML", "CSS", "Machine Learning", "Agile"],
       link: "https://www.capitalise.space/projects/6736f7089df43e2d89de9401",
     },
     {
