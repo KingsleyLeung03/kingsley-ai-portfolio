@@ -41,7 +41,7 @@ const portfolioData = {
     // Testing
     "Pytest",
     // DevOps & Tools
-    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains"
+    "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains", "Terraform"
   ],
   workExperience: [
     {

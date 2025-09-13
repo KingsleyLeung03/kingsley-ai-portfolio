@@ -42,7 +42,7 @@ SQL, LINQ, SQLite, Entity Framework (EF Core), PostgreSQL, MongoDB
 Pytest
 
 ### DevOps & Tools
-Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Cloudflare Workers, Object-Oriented Programming (OOP), JetBrains (PyCharm, IntelliJ IDEA...), CI/CD
+Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Cloudflare Workers, Object-Oriented Programming (OOP), JetBrains (PyCharm, IntelliJ IDEA...), CI/CD, Terraform
 
 ### Others
 Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
