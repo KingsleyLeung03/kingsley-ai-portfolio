@@ -45,6 +45,20 @@ const portfolioData = {
   ],
   workExperience: [
     {
+      role: "Graduate Associate - Part Time",
+      company: "Tribes Digital",
+      period: "Sep 2025 – Present",
+      description:
+        [
+          "Engaged in full-stack development using TypeScript, Python, Next.js, React, FastAPI, and PostgreSQL, contributing to the MVP roll-out.",
+          "Gained hands-on experience with hosting services like Vercel, Render, and Neon, deploying and managing applications throughout the project lifecycle.",
+          "Utilised Docker and implemented CI/CD pipelines with GitHub Actions to automate testing and deployment.",
+          "Gained hands-on experience across multiple technological domains, including SaaS-based CRM systems.",
+          "Assessed and experimented with emerging AI and generative tools, like GitHub Copilot, Gemini Code Assist, and Cursor."
+        ],
+        tags: ["TypeScript", "Python", "Next.js", "React", "FastAPI", "PostgreSQL", "Vercel", "Render", "Neon", "Docker", "CI/CD", "GitHub Actions", "SaaS", "CRM", "AI", "Generative AI"]
+    },
+    {
       role: "Engineering Intern",
       company: "Endace Technology",
       period: "Nov 2024 – Feb 2025",

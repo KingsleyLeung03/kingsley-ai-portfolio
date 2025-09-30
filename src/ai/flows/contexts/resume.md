@@ -59,6 +59,15 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 
 ## Work Experience
 
+### Graduate Associate - Part Time
+**Tribes Digital** | Sep 2025 – Present
+
+- Engaged in full-stack development using TypeScript, Python, Next.js, React, FastAPI, and PostgreSQL, contributing to the MVP roll-out. 
+- Gained hands-on experience with hosting services like Vercel, Render, and Neon, deploying and managing applications throughout the project lifecycle. 
+- Utilised Docker and implemented CI/CD pipelines with GitHub Actions to automate testing and deployment.
+- Gained hands-on experience across multiple technological domains, including SaaS-based CRM systems.
+- Assessed and experimented with emerging AI and generative tools, like GitHub Copilot, Gemini Code Assist, and Cursor.
+
 ### Engineering Intern
 **Endace Technology** | Nov 2024 – Feb 2025
 
