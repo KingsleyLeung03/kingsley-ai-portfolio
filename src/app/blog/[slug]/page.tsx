@@ -5,12 +5,13 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 type PageProps = {
-    params: {
+    params: Promise<{
         slug: string;
-    }
+    }>
 }
 
-export async function generateMetadata({ params }: PageProps) {
+export async function generateMetadata(props: PageProps) {
+  const params = await props.params;
   try {
     const postData = await getPostData(params.slug);
     return {
@@ -29,7 +30,8 @@ export async function generateStaticParams() {
 }
 
 
-export default async function Post({ params }: PageProps) {
+export default async function Post(props: PageProps) {
+  const params = await props.params;
   try {
     const postData = await getPostData(params.slug);
 
