@@ -5,12 +5,13 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 type PageProps = {
-    params: {
+    params: Promise<{
         slug: string;
-    }
+    }>
 }
 
-export async function generateMetadata({ params }: PageProps) {
+export async function generateMetadata(props: PageProps) {
+  const params = await props.params;
   try {
     const postData = await getPostData(params.slug);
     return {
@@ -29,7 +30,8 @@ export async function generateStaticParams() {
 }
 
 
-export default async function Post({ params }: PageProps) {
+export default async function Post(props: PageProps) {
+  const params = await props.params;
   try {
     const postData = await getPostData(params.slug);
 
@@ -50,7 +52,7 @@ export default async function Post({ params }: PageProps) {
         </header>
         
         <div 
-          className="space-y-6 text-lg leading-relaxed [&_h2]:font-headline [&_h2]:text-3xl [&_h2]:mt-8 [&_h2]:mb-4 [&_h2]:text-primary [&_h3]:font-headline [&_h3]:text-2xl [&_h3]:mt-6 [&_h3]:mb-3 [&_h3]:text-primary [&_a]:text-primary hover:[&_a]:underline [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-muted-foreground"
+          className="space-y-6 text-lg leading-relaxed [&_h2]:font-headline [&_h2]:text-3xl [&_h2]:mt-8 [&_h2]:mb-4 [&_h2]:text-primary [&_h3]:font-headline [&_h3]:text-2xl [&_h3]:mt-6 [&_h3]:mb-3 [&_h3]:text-primary [&_a]:text-primary [&_a]:hover:underline [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-muted-foreground"
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }} 
         />
       </article>

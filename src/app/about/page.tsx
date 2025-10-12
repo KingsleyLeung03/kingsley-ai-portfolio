@@ -365,7 +365,7 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="font-headline text-2xl">{project.name}</CardTitle>
               </CardHeader>
-              <CardContent className="flex-grow">
+              <CardContent className="grow">
                  <ul className="mb-4 list-disc pl-5 space-y-1 text-muted-foreground">
                     {Array.isArray(project.description) ? project.description.map((item, i) => <li key={i}>{item}</li>) : <li>{project.description}</li>}
                 </ul>

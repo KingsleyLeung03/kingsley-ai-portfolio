@@ -90,7 +90,7 @@ export function Chatbot() {
                   </Avatar>
                 )}
                 <div className={cn('max-w-[75%] rounded-lg px-3 py-2 text-sm', message.role === 'user' ? 'bg-primary text-primary-foreground' : 'bg-muted')}>
-                    <div className="prose prose-sm text-foreground max-w-none [&_a]:text-primary hover:[&_a]:underline [&_p]:m-0">
+                    <div className="prose prose-sm text-foreground max-w-none [&_a]:text-primary [&_a]:hover:underline [&_p]:m-0">
                       <ReactMarkdown>{message.content}</ReactMarkdown>
                     </div>
                 </div>
