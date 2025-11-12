@@ -39,15 +39,27 @@ const portfolioData = {
     // Databases & ORMs
     "SQL", "LINQ", "SQLite", "Entity Framework (EF Core)", "PostgreSQL", "MongoDB",
     // Testing
-    "Pytest",
+    "Pytest", "Vitest",
     // DevOps & Tools
     "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains", "Terraform"
   ],
   workExperience: [
     {
+      role: "Intern - Junior Developer",
+      company: "Decoded",
+      period: "Oct 2025 – Present",
+      description:
+        [
+          "Contributed to full-stack application development with TypeScript, Next.js, React, Node.js, Express.js, Vitest, and MongoDB.",
+          "Utilised Git for version control and operated within a Linux environment, using Bash for development and operational tasks.",
+          "Leveraged modern tools like Cursor to accelerate debugging and feature implementation in a collaborative team setting."
+        ],
+        tags: ["TypeScript", "Next.js", "React", "Node.js", "Express.js", "Vitest", "MongoDB", "Git", "Linux", "Bash", "Cursor"]
+    },
+    {
       role: "Graduate Associate - Part Time",
       company: "Tribes Digital",
-      period: "Sep 2025 – Present",
+      period: "Sep 2025 – Oct 2025",
       description:
         [
           "Engaged in full-stack development using TypeScript, Python, Next.js, React, FastAPI, and PostgreSQL, contributing to the MVP roll-out.",

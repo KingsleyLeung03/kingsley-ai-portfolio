@@ -39,7 +39,7 @@ Python, C#, Java, ASP.NET, FastAPI, Express.js, Node.js, Bun
 SQL, LINQ, SQLite, Entity Framework (EF Core), PostgreSQL, MongoDB
 
 ### Testing
-Pytest
+Pytest, Vitest
 
 ### DevOps & Tools
 Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Cloudflare Workers, Object-Oriented Programming (OOP), JetBrains (PyCharm, IntelliJ IDEA...), CI/CD, Terraform
@@ -59,8 +59,15 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 
 ## Work Experience
 
+### Intern - Junior Developer
+**Decoded** | Oct 2025 – Present
+
+- Contributed to full-stack application development with TypeScript, Next.js, React, Node.js, Express.js, Vitest, and MongoDB.
+- Utilised Git for version control and operated within a Linux environment, using Bash for development and operational tasks.
+- Leveraged modern tools like Cursor to accelerate debugging and feature implementation in a collaborative team setting.
+
 ### Graduate Associate - Part Time
-**Tribes Digital** | Sep 2025 – Present
+**Tribes Digital** | Sep 2025 – Oct 2025
 
 - Engaged in full-stack development using TypeScript, Python, Next.js, React, FastAPI, and PostgreSQL, contributing to the MVP roll-out. 
 - Gained hands-on experience with hosting services like Vercel, Render, and Neon, deploying and managing applications throughout the project lifecycle. 
