@@ -39,7 +39,7 @@ Python, C#, Java, ASP.NET, FastAPI, Express.js, Node.js, Bun
 SQL, LINQ, SQLite, Entity Framework (EF Core), PostgreSQL, MongoDB
 
 ### Testing
-Pytest
+Pytest, Vitest
 
 ### DevOps & Tools
 Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Cloudflare Workers, Object-Oriented Programming (OOP), JetBrains (PyCharm, IntelliJ IDEA...), CI/CD, Terraform

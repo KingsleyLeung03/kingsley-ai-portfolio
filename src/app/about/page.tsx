@@ -39,7 +39,7 @@ const portfolioData = {
     // Databases & ORMs
     "SQL", "LINQ", "SQLite", "Entity Framework (EF Core)", "PostgreSQL", "MongoDB",
     // Testing
-    "Pytest",
+    "Pytest", "Vitest",
     // DevOps & Tools
     "Git", "Docker", "Linux", "Bash", "GitHub Actions", "Vercel", "Jira", "Confluence", "Visual Studio", "Object-Oriented Programming (OOP)", "CI/CD", "Cloudflare Workers", "JetBrains", "Terraform"
   ],
