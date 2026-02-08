@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @plugin '@tailwindcss/typography';
 @plugin 'tailwindcss-animate';
@@ -6,8 +6,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-body: 'PT Sans', sans-serif;
-  --font-headline: 'Playfair Display', serif;
+  --font-body: "PT Sans", sans-serif;
+  --font-headline: "Playfair Display", serif;
   --font-code: monospace;
 
   --color-background: hsl(var(--background));
