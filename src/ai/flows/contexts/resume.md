@@ -12,39 +12,49 @@
 
 ## Personal Profile
 
-A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in full-stack development, recognised for being collaborative and continuously learning new tech stacks like AWS as needed, demonstrated through an internship at Endace and multiple projects. Proficient in DevOps practices, including Git, Docker, CI/CD. Ready to leverage a strong foundation in C#, TypeScript and Python.  
+A high-achieving Computer Science graduate (GPA 7.1/9) who led a six-member team to develop an AI-powered web platform for wildlife conservation. Skilled in full-stack development, recognised for being collaborative and continuously learning new tech stacks like AWS as needed, demonstrated through an internship at Endace and multiple projects. Proficient in DevOps practices, including Git, Docker, CI/CD. Ready to leverage a strong foundation in C#, TypeScript and Python.
 
 ## Education History
 
 ### The University of Auckland
-**Bachelor of Science** | Jan 2022 – May 2025  
+
+**Bachelor of Science** | Jan 2022 – May 2025
+
 - Major in Computer Science, GPA: 7.1/9 with two Certificates of Outstanding Achievement from the faculty.
 - **Coursework and Projects:** Full-Stack Development, RESTful APIs (Java, C#, Python), SQL, AI/ML, Cybersecurity, Computer Architecture, Data Communications and Security, Operating Systems.
 - Class Representative for three courses, recognised for leadership with multiple certificates from the student association.
 
 ### The University of Auckland International College
-**The University of Auckland Certificate in Foundation Studies (Level 3)** | Jan 2021 – Dec 2021  
-- Studied Accounting, Mathematics with Calculus, Physics, and Statistics. 
+
+**The University of Auckland Certificate in Foundation Studies (Level 3)** | Jan 2021 – Dec 2021
+
+- Studied Accounting, Mathematics with Calculus, Physics, and Statistics.
 - Gained experience in Microsoft Office from different coursework.
 
 ## Skills
 
 ### Frontend
+
 JavaScript, TypeScript, React, Angular, Next.js, HTML, CSS, Tailwind CSS, Sass, Bootstrap
 
 ### Backend
+
 Python, C#, Java, ASP.NET, FastAPI, Express.js, Node.js, Bun
 
 ### Databases & ORMs
+
 SQL, LINQ, SQLite, Entity Framework (EF Core), PostgreSQL, MongoDB
 
 ### Testing
+
 Pytest, Vitest
 
 ### DevOps & Tools
+
 Git, Docker, Linux, Bash, Vercel, Jira, Confluence, Agile, Scrum, Visual Studio, GitHub Actions, Cloudflare Workers, Object-Oriented Programming (OOP), JetBrains (PyCharm, IntelliJ IDEA...), CI/CD, Terraform
 
 ### Others
+
 Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 
 ## Interests
@@ -60,6 +70,7 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 ## Work Experience
 
 ### Intern - Junior Developer
+
 **Decoded** | Oct 2025 – Present
 
 - Contributed to full-stack application development with TypeScript, Next.js, React, Node.js, Express.js, Vitest, and MongoDB.
@@ -67,15 +78,17 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 - Leveraged modern tools like Cursor to accelerate debugging and feature implementation in a collaborative team setting.
 
 ### Graduate Associate - Part Time
+
 **Tribes Digital** | Sep 2025 – Oct 2025
 
-- Engaged in full-stack development using TypeScript, Python, Next.js, React, FastAPI, and PostgreSQL, contributing to the MVP roll-out. 
-- Gained hands-on experience with hosting services like Vercel, Render, and Neon, deploying and managing applications throughout the project lifecycle. 
+- Engaged in full-stack development using TypeScript, Python, Next.js, React, FastAPI, and PostgreSQL, contributing to the MVP roll-out.
+- Gained hands-on experience with hosting services like Vercel, Render, and Neon, deploying and managing applications throughout the project lifecycle.
 - Utilised Docker and implemented CI/CD pipelines with GitHub Actions to automate testing and deployment.
 - Gained hands-on experience across multiple technological domains, including SaaS-based CRM systems.
 - Assessed and experimented with emerging AI and generative tools, like GitHub Copilot, Gemini Code Assist, and Cursor.
 
 ### Engineering Intern
+
 **Endace Technology** | Nov 2024 – Feb 2025
 
 - Architected and developed a modular profile system using Python, FastAPI, and Jinja2 to improve scalability and maintainability, assisting in the deployment and configuration on core network probe products.
@@ -84,12 +97,14 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 - Worked collaboratively in an Agile team using Jira, Confluence and Bitbucket, while collaborating with seniors to enhance features, resolve bugs, and debug issues, maximising team productivity.
 
 ### Professional Notetaker
+
 **The University of Auckland** | Aug 2024 – Dec 2024
 
 - Translated complex academic lectures into clear, accessible, and structured notes for students registered with Student Disability Services, directly supporting academic inclusivity.
 - Demonstrated high attention to detail and adaptability by delivering quality notes across diverse and technical subjects, consistently meeting strict deadlines.
 
 ### Information Technology Operator
+
 **Triumen Group Zhuhai Branch** | Aug 2020 – Nov 2020
 
 - Provided critical front-line IT support for all hardware, software, and network issues, minimising downtime and ensuring smooth daily operations for the entire office.
@@ -98,6 +113,7 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 ## Project Experiences
 
 ### AI-Powered Personal Portfolio
+
 **[Project Link](https://kingsley-leung.vercel.app)**
 
 - Developed a responsive, single-page portfolio using Node.js, Bun, Next.js, TypeScript, and Tailwind CSS to showcase professional experience and projects.
@@ -106,6 +122,7 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 - Containerised the application using Docker for consistent and simplified deployment.
 
 ### PowerGPT — Remote MCP Server for LLM Tool Augmentation
+
 **[GitHub Repository](https://github.com/KingsleyLeung03/power-gpt)**
 
 - Built and deployed an MCP (Model Context Protocol) server on Cloudflare Workers using TypeScript, Bun, Wrangler, GitHub Actions, and optional Docker for reproducible local runs.
@@ -113,6 +130,7 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 - Enhanced reliability and adoption by centralising computation/fetching, reducing hallucination risk, and providing clear documentation to connect the MCP to Cloudflare AI Playground and Claude Desktop.
 
 ### CARE Web Platform: AI-Driven Wildlife Conservation
+
 **[Project Link](https://www.capitalise.space/projects/6736f7089df43e2d89de9401)**
 
 - Led a 6-member team to design and implement an HTML, CSS, React web platform for AI image-based pest detection.
@@ -121,6 +139,7 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 - Improved tracking of species like stoats, contributing to NZ biodiversity protection.
 
 ### PhotoRecipe: AI-Powered Recipe Generator
+
 **[Project Link](https://photo-recipe-rho.vercel.app)**
 
 - Engineered a full-stack Next.js application with Node.js, leveraging Firebase Genkit to orchestrate Google Gemini AI models for a complete "photo-to-recipe" pipeline.
@@ -128,17 +147,20 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 - Developed a responsive UI using TypeScript, Tailwind CSS, and ShadCN, managing state with React Hooks and optimising performance with client-side image compression.
 
 ### vCard Contact Generator
+
 **[Project Link](https://vcardcontactgenerator.vercel.app)**
 
 - A sleek web app built with Node.js, React, Next.js, Tailwind CSS, Sass that generates random contact information with the ability to export as `.vcf` (vCard) files.
 - Containerised using Docker for consistent local development and deployment. Managed and monitored a CI/CD pipeline using GitHub Actions to automate testing and deployments to Vercel.
 
 ### Concert Booking Service
+
 **[GitHub Repository](https://github.com/KingsleyLeung03/concert-booking-service-csharp)**
 
 - Developed a full-featured C#/.NET concert booking web app using ASP.NET MVC, supporting event browsing and ticket management via RESTful APIs, implemented with Entity Framework (EF Core), LINQ and SQLite.
 
 ### Game Library Web App
+
 **[GitHub Repository](https://github.com/KingsleyLeung03/cs235-2023-gameswebapp-assignment-zlia403_glo501_skat149)**
 
 - Implemented a Flask-based app using Python, SQLAlchemy, Jinja2, and Repository Pattern, implemented unit and end-to-end (E2E) testing with Pytest.
@@ -147,6 +169,7 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 ## Volunteer Experiences
 
 ### Class Representatives (x3)
+
 **The University of Auckland**
 
 - Elected as class representative three times (COMPSCI 335, COMPSCI 351, COMPSCI 313).
@@ -156,34 +179,44 @@ Continuously Learning, AI, MCP, Leverage AI Tools (Cursor, Claude Code)
 ## Awards & Certifications
 
 ### Pixel Perfect Award - The Figured Internship Experience
+
 **Figured, Web Development & Consulting Club (WDCC)**
+
 - Awarded in a team hackathon for developing a financial reporting interface that most faithfully aligned with the product requirements and design specifications. Shows strong skills in collaborating, rapid learning and applying new tech stacks.
 - Developed within a Laravel Sail Docker environment, utilised PHP, Laravel for backend API, and Vue.js, Tailwind CSS for frontend to create a visually appealing Profit & Loss report featuring interactive graphs for data visualisation.
 - Went beyond the core requirements by integrating an LLM via the Laravel Prism to generate AI-powered financial commentary directly within the report.
 
 ### App Integration Workshop - Level 2
+
 **IBM**
-- Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases.  
-- Skills demonstrated successfully in a supervised environment through completion of at least one hands-on lab or design thinking activity, as validated by IBM.  
-- This credential earner has advanced their technical knowledge in App Integration. They have gained practical experience and developed a deeper understanding of App Integration concepts and processes through exploration of use cases and integration of applications.  
+
+- Developed a deeper understanding of App Integration concepts by completing a hands-on lab focused on practical use cases.
+- Skills demonstrated successfully in a supervised environment through completion of at least one hands-on lab or design thinking activity, as validated by IBM.
+- This credential earner has advanced their technical knowledge in App Integration. They have gained practical experience and developed a deeper understanding of App Integration concepts and processes through exploration of use cases and integration of applications.
 
 ### Cloudflare TechLabs Certificate of Attendance
-**Cloudflare**  
+
+**Cloudflare**
+
 - Participated in "Diary of a Cyber Breach Investigator" workshop, gaining insight into real-world incident response, threat modelling, and breach mitigation strategies.
 
 ### Certificate of Outstanding Achievement (x2)
-**School of Computer Science, the University of Auckland**  
-- Awarded for exceptional academic performance in Computer Science courses.  
-- For achieving an A+ grade in COMPSCI 235 (Software Development Methodologies) in S2 2023.  
-- For achieving an A+ grade in COMPSCI 230 (Object Oriented Software Development) in S1 2023.  
+
+**School of Computer Science, the University of Auckland**
+
+- Awarded for exceptional academic performance in Computer Science courses.
+- For achieving an A+ grade in COMPSCI 235 (Software Development Methodologies) in S2 2023.
+- For achieving an A+ grade in COMPSCI 230 (Object Oriented Software Development) in S1 2023.
 
 ### Class Representative Certificates of Appreciation (x3)
-**Auckland University Students' Association (AUSA)**  
+
+**Auckland University Students' Association (AUSA)**
+
 - Recognised for leadership and effective communication on behalf of peers.
-- For representing COMPSCI 313 (Computer Architecture) in S2 2024.  
-- For representing COMPSCI 351 (Fundamentals of Database Systems) in S1 2024.  
-- For representing COMPSCI 335 (Web Programming and Distributed Services) in S2 2023.  
+- For representing COMPSCI 313 (Computer Architecture) in S2 2024.
+- For representing COMPSCI 351 (Fundamentals of Database Systems) in S1 2024.
+- For representing COMPSCI 335 (Web Programming and Distributed Services) in S2 2023.
 
 ---
 
-*References available on request*
+_References available on request_

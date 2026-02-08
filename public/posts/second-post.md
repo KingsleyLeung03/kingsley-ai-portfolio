@@ -1,6 +1,6 @@
 ---
-title: 'My Journey with Next.js and Tailwind CSS'
-date: '2023-09-15'
+title: "My Journey with Next.js and Tailwind CSS"
+date: "2023-09-15"
 ---
 
 Building modern web applications requires a powerful and efficient stack. For me, the combination of Next.js and Tailwind CSS has been a game-changer.
@@ -8,6 +8,7 @@ Building modern web applications requires a powerful and efficient stack. For me
 ### Why Next.js?
 
 Next.js provides a robust framework for building React applications with features like:
+
 - Server-Side Rendering (SSR) and Static Site Generation (SSG)
 - File-system based routing
 - Built-in optimizations for performance

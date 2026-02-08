@@ -60,21 +60,24 @@ To get a local copy up and running, follow these simple steps.
 
 This project uses GitHub Actions for Continuous Integration. The workflow is defined in `.github/workflows/ci.yml` and includes the following checks:
 
--   **Linting**: Ensures code style and quality standards are met.
--   **Build**: Verifies that the application builds successfully.
--   **Docker Build**: Confirms that the Docker image can be built without errors.
+- **Linting**: Ensures code style and quality standards are met.
+- **Build**: Verifies that the application builds successfully.
+- **Docker Build**: Confirms that the Docker image can be built without errors.
 
 These checks are run automatically on every `push` and `pull_request` to the `main` branch across multiple operating systems:
--   Ubuntu (latest)
--   macOS (latest)
--   Windows (latest)
+
+- Ubuntu (latest)
+- macOS (latest)
+- Windows (latest)
 
 ## Containerisation
 
 A `Dockerfile` is included to containerise the application for easy deployment.
 
 ### Build the Docker image
+
 To build the image, you need to pass your Gemini API key as a build secret. First, export your key as an environment variable:
+
 ```sh
 export GEMINI_API_KEY="your_api_key_here"
 docker build --secret id=gemini_api_key,env=GEMINI_API_KEY -t kingsley-ai-portfolio .
@@ -85,6 +88,7 @@ docker build --secret id=gemini_api_key,env=GEMINI_API_KEY -t kingsley-ai-portfo
 ```sh
 docker run -p 3000:3000 kingsley-ai-portfolio
 ```
+
 The application will be available at `http://localhost:3000`.
 
 ## 📂 Project Structure
